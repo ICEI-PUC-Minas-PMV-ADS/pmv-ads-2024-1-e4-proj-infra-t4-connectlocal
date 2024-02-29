@@ -1,23 +1,25 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas/PUC-MG`
 
-`DISCIPLINA`
+`Eixo 4 - Projeto: Desenvolvimento de uma Aplicação Distribuída - Turma 04 - 2024/1
 
-`SEMESTRE`
+`QUARTO SEMESTRE`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Bruno Victor de Oliveira Flavio
+* Daniella Souza de Oliveira
+* Daniel Mendes Rufino Silva
+* Jeferson Felix dos Santos
+* Mateus Delay
+* Pedro Henrique da Silva Santos
 
 ## Orientador
 
-* Nome completo do professor 1
+* Pedro Alves de Oliveira
 
 ## Instruções de utilização
 
