@@ -8,9 +8,15 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+* Pedro Paulo: Tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+  
+* José Félix: Presta serviços de Borracheiro há 30 anos. 45 anos, casado, 3 filhos. Tem estabelecimento comercial onde atende clientes com qualquer tipo de veículo, desde pneus de moto, até caminhões. Filho mais velho trabalha com ele, o que contribui para que ele possa fazer atendimentos fora do estabelecimento usando a sua van.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+* Paulo Roberto: Técnico hidráulico, 58 anos. Grande experiência com vazamentos. Caso não seja possível descobrir de onde está vindo o vazamento, esse é o profissional que você precisa chamar. Resolve qualquer problema hidráulico. Casado, 1 filha. Não tem estabelecimento comercial.
+
+* Amanda: Divorciada, 30 anos. Mora com filho de 6 anos. É contadora, trabalha remotamente de casa. Paga financiamento imobiliário e precisa cuidar do apartamento sozinha. Por isso, tem a necessidade de acionar algum profissional quando se depara com alguma avaria no imóvel.
+
+* 
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
@@ -28,8 +34,18 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Pedro Paulo  |            |               |
+|José Felix      |Encontrar clientes que precisem de serviços de borracharia.| Aumentar os lucros e expandir o negócio. |
+|Paulo Roberto |Encontrar clientes que precisem de um profissional em serviços hidráulicos. | Aumentar o portfólio de clientes e assim aumentar os lucros.|
+|Amanda |Encontrar profissionais que possam prestar serviços de reforma e manutenção do seu imóvel e do seu veículo.|Ter contato de profissionais de confiança para poder acionar quando necessário.|
+
+
+
+
+
+
+
+
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
