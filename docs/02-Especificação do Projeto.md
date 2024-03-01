@@ -16,7 +16,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 * Amanda: Divorciada, 30 anos. Mora com filho de 6 anos. É contadora, trabalha remotamente de casa. Paga financiamento imobiliário e precisa cuidar do apartamento sozinha. Por isso, tem a necessidade de acionar algum profissional quando se depara com alguma avaria no imóvel.
 
-* 
+* João Cláudio: João é um profissional ocupado e está sempre em busca de maneiras convenientes de atender às suas necessidades diárias. Ele deseja uma plataforma centralizada onde possa explorar facilmente os produtos e serviços oferecidos por vendedores locais, fazer pedidos online e receber suas compras de forma rápida e segura. João apreciaria recursos como avaliações de outros consumidores. 
 
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
@@ -38,6 +38,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |José Felix      |Encontrar clientes que precisem de serviços de borracharia.| Aumentar os lucros e expandir o negócio. |
 |Paulo Roberto |Encontrar clientes que precisem de um profissional em serviços hidráulicos. | Aumentar o portfólio de clientes e assim aumentar os lucros.|
 |Amanda |Encontrar profissionais que possam prestar serviços de reforma e manutenção do seu imóvel e do seu veículo.|Ter contato de profissionais de confiança para poder acionar quando necessário.|
+|João Cláudio |Explorar facilmente os produtos e serviços locais através da plataforma.|Economizar tempo nas minhas compras diárias, tornando o processo mais eficiente e conveniente.|
 
 
 
@@ -95,15 +96,19 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001||| 
+|RF-002|||
+|RNF-003|Permitir que os consumidores deixem avaliações e comentários sobre os produtos e vendedores, promovendo a transparência e a confiança na comunidade.|MÉDIA|
+|RNF-004|Os usuários devem poder realizar buscas detalhadas por produtos, categorias e vendedores locais.|ALTA|
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001|||
+|RNF-002|||
+|RNF-003|Garantir que a aplicação responda rapidamente às interações do usuário, mesmo em condições de tráfego intenso.|ALTA|
+|RNF-004|Assegurar que a aplicação seja acessível e funcional em diferentes dispositivos, incluindo web e dispositivos móveis.|ALTA|
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
