@@ -98,8 +98,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001||| 
 |RF-002|||
-|RNF-003|Permitir que os consumidores deixem avaliações e comentários sobre os produtos e vendedores, promovendo a transparência e a confiança na comunidade.|MÉDIA|
-|RNF-004|Os usuários devem poder realizar buscas detalhadas por produtos, categorias e vendedores locais.|ALTA|
+|RF-003|Permitir que os consumidores deixem avaliações e comentários sobre os produtos e vendedores, promovendo a transparência e a confiança na comunidade.|MÉDIA|
+|RF-004|Os usuários devem poder realizar buscas detalhadas por produtos, categorias e vendedores locais.|ALTA|
 
 ### Requisitos não Funcionais
 
