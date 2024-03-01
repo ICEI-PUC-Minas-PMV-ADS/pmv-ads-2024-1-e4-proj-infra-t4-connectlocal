@@ -126,8 +126,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deverá ser entregue até o dia 23 de junho de 2024 |
+|02| O projeto deverá ser executado apenas pelos alunos que compõe o grupo, sem contratação de profissionais.|
+|03|O projeto deverá funcionar em navegador web e em dispositivos móveis.|
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
