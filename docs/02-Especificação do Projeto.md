@@ -99,6 +99,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-002|A aplicação deve permitir que consumidores pesquisem por serviços que estejam precisando|ALTA|
 |RF-003|A aplicação deve permitir que os consumidores deixem avaliações e comentários sobre os produtos e vendedores, promovendo a transparência e a confiança na comunidade.|MÉDIA|
 |RF-004|Os usuários devem poder realizar buscas detalhadas por produtos, categorias e vendedores locais.|ALTA|
+|RF-005|Os usuários devem poder visualizar avaliações e recomendações de outros clientes sobre os prestadores de serviços listados na plataforma.|MÉDIA|
+|RF-006|Os usuários devem ser capazes de agendar serviços diretamente pelo aplicativo, escolhendo uma data e horário que seja conveniente para eles.|ALTA|
+|RF-007|A plataforma deve permitir que os prestadores de serviços locais, listem suas empresas, incluindo detalhes sobre os serviços oferecidos, fotos e informações de contato.|ALTA|
+|RF-008|Deve haver uma funcionalidade que permita aos prestadores de serviços personalizar seus perfis com informações relevantes sobre sua empresa, como portfólio, horário de funcionamento e políticas de preços.|ALTA|
 
 ### Requisitos não Funcionais
 
@@ -109,6 +113,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-003|A aplicação deve operar em um ambiente de computação em nuvem.|ALTA|
 |RNF-004|Garantir que a aplicação responda rapidamente às interações do usuário, mesmo em condições de tráfego intenso.|ALTA|
 |RNF-005|Assegurar que a aplicação seja acessível e funcional em diferentes dispositivos, incluindo web e dispositivos móveis.|ALTA|
+|RNF-006|A interface do usuário deve ser intuitiva e fácil de usar, garantindo que os usuários possam navegar pela plataforma, pesquisar serviços e entrar em contato com prestadores de serviços sem dificuldades.|ALTA|
+|RNF-007|A plataforma deve cumprir todas as leis e regulamentações aplicáveis relacionadas à proteção de dados, privacidade do usuário, direitos do consumidor e qualquer outra legislação relevante em todas as jurisdições onde opera.|MÉDIA|
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
