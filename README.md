@@ -27,7 +27,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 **APENAS UMA IDEIA INIAL ABAIXO (PEDRO)**
 
-[Manual do Usuário - Sistema de Contratação de Serviços Locai.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/files/14471018/Manual.do.Usuario.-.Sistema.de.Contratacao.de.Servicos.Locai.pdf)
+[Manual do Usuário - Sistema de Contratação de Serviços Locais - ConnectLocal.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/files/14471018/Manual.do.Usuario.-.Sistema.de.Contratacao.de.Servicos.Locai.pdf)
 
 # Documentação
 
