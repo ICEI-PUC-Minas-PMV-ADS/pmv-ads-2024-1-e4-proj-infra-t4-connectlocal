@@ -5,8 +5,6 @@
 Nessa etapa serão detalhadas as especificações do projeto para o desenvolvimento de Marketplace de Serviços Locais. Para isso, utilizaremos personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições do projeto. Essas informações fornecerão uma visão abrangente dos objetivos, funcionalidades e características essenciais da plataforma.
 
 ## Personas
-
-* Pedro Paulo: Tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
   
 * José Félix: Presta serviços de Borracheiro há 30 anos. 45 anos, casado, 3 filhos. Tem estabelecimento comercial onde atende clientes com qualquer tipo de veículo, desde pneus de moto, até caminhões. Filho mais velho trabalha com ele, o que contribui para que ele possa fazer atendimentos fora do estabelecimento usando a sua van.
 
@@ -32,7 +30,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Pedro Paulo  |            |               |
 |José Felix      |Encontrar clientes que precisem de serviços de borracharia.| Aumentar os lucros e expandir o negócio. |
 |Paulo Roberto |Encontrar clientes que precisem de um profissional em serviços hidráulicos. | Aumentar o portfólio de clientes e assim aumentar os lucros.|
 |Amanda |Encontrar profissionais que possam prestar serviços de reforma e manutenção do seu imóvel e do seu veículo.|Ter contato de profissionais de confiança para poder acionar quando necessário.|
@@ -94,19 +91,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001||| 
-|RF-002|||
-|RF-003|Permitir que os consumidores deixem avaliações e comentários sobre os produtos e vendedores, promovendo a transparência e a confiança na comunidade.|MÉDIA|
+|RF-001|A aplicação deve permitir que prestadores de serviço ofereçam seu trabalho|ALTA| 
+|RF-002|A aplicação deve permitir que consumidores pesquisem por serviços que estejam precisando|ALTA|
+|RF-003|A aplicação deve permitir que os consumidores deixem avaliações e comentários sobre os produtos e vendedores, promovendo a transparência e a confiança na comunidade.|MÉDIA|
 |RF-004|Os usuários devem poder realizar buscas detalhadas por produtos, categorias e vendedores locais.|ALTA|
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001|||
-|RNF-002|||
-|RNF-003|Garantir que a aplicação responda rapidamente às interações do usuário, mesmo em condições de tráfego intenso.|ALTA|
-|RNF-004|Assegurar que a aplicação seja acessível e funcional em diferentes dispositivos, incluindo web e dispositivos móveis.|ALTA|
+|RNF-001|A aplicação deve ser intuitiva e fácil de ser utilizada por qualquer tipo de usuário|ALTA|
+|RNF-002|A aplicação deve ser responsiva e se adaptar a qualquer tamanho de dispositivo|ALTA|
+|RNF-003|A aplicação deve operar em um ambiente de computação em nuvem.|ALTA|
+|RNF-004|Garantir que a aplicação responda rapidamente às interações do usuário, mesmo em condições de tráfego intenso.|ALTA|
+|RNF-005|Assegurar que a aplicação seja acessível e funcional em diferentes dispositivos, incluindo web e dispositivos móveis.|ALTA|
+
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
