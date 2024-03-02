@@ -18,6 +18,11 @@ Nessa etapa serão detalhadas as especificações do projeto para o desenvolvime
 
 * Miguel Souza: Miguel é o proprietário de uma pequena empresa de jardinagem que presta serviços em sua cidade há mais de uma década. Nos últimos anos, ele tem notado uma queda no número de clientes, especialmente em comparação com as grandes redes de jardinagem que investem pesadamente em marketing e publicidade. Miguel sabe que oferece serviços de alta qualidade a preços competitivos, mas luta para se fazer notar pelos clientes locais que estão cada vez mais recorrendo às grandes cadeias.
 
+* Marina Oliveira: Marina Oliveira é uma profissional dedicada e bem-sucedida que atua como diretora de recursos humanos em uma grande empresa e recentemente comprou uma nova casa e precisa de diversos serviços locais, como jardinagem, limpeza, e instalação de sistemas de segurança. No entanto, ela tem enfrentado dificuldades em encontrar profissionais qualificados e confiáveis para realizar esses serviços. Marina precisa de uma solução prática e segura para contratar esses serviços, garantindo qualidade e confiabilidade.
+
+* Luana Santos:  Luana é uma estudante de direito apaixonada por seu curso e pela justiça social e está organizando um evento de arrecadação de fundos para uma organização sem fins lucrativos local que apoia mulheres vítimas de violência doméstica. Ela precisa de diversos serviços locais para o evento, como catering, decoração, e música ao vivo. No entanto, ela tem dificuldade em encontrar profissionais qualificados e dispostos a colaborar com sua causa de forma acessível. 
+
+
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
 > - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
@@ -40,6 +45,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |João Cláudio |Explorar facilmente os produtos e serviços locais através da plataforma.|Economizar tempo nas minhas compras diárias, tornando o processo mais eficiente e conveniente.|
 |Ana Paula |Encontrar profissionais confiáveis na nova cidade onde se mudou.|Ana precisa de uma solução rápida e confiável para resolver seu problema doméstico.|
 |Miguel Souza |Um Marketplace de Serviços Locais que permita a listagem de sua empresa para alcançar novos clientes locais e concorrer de maneira mais eficaz com as grandes cadeias.|Miguel busca uma maneira de promover sua empresa localmente e alcançar clientes que estão cada vez mais recorrendo a grandes redes.|
+|Marina Oliveira|Encontrar um serviço de limpeza confiável e qualificado.|Para agendar o serviço de acordo com minha agenda lotada.|
+|Marina Oliveira|Comparar os serviços de diferentes profissionais de instalação de sistemas de segurança.|Para escolher o mais adequado para minha nova casa.|
+|Luana Santos|Encontrar um serviço de catering disposto a colaborar com minha causa.|Garantir o sucesso do evento de arrecadação de fundos.|
+|Luana Santos|Efetuar os pagamentos aos profissionais contratados de forma eficiente e transparente.|Cumprir os acordos previamente estabelecidos e encerrar o evento com sucesso.|
 
 
 
@@ -103,6 +112,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006|Os usuários devem ser capazes de agendar serviços diretamente pelo aplicativo, escolhendo uma data e horário que seja conveniente para eles.|ALTA|
 |RF-007|A plataforma deve permitir que os prestadores de serviços locais, listem suas empresas, incluindo detalhes sobre os serviços oferecidos, fotos e informações de contato.|ALTA|
 |RF-008|Deve haver uma funcionalidade que permita aos prestadores de serviços personalizar seus perfis com informações relevantes sobre sua empresa, como portfólio, horário de funcionamento e políticas de preços.|ALTA|
+|RF-009|Cada usuário deve ter um perfil onde possa gerenciar suas informações pessoais, histórico de serviços contratados, avaliações recebidas e pagamentos realizados.|ALTA|
+|RF-010|O sistema deve permitir que os usuários compartilhem avaliações e recomendações sobre os serviços contratados em suas redes sociais, aumentando a visibilidade e credibilidade do sistema.|MÉDIA|
+|RF-011|O sistema deve oferecer uma opção de chat ou mensagens internas para facilitar a comunicação direta entre os usuários e os prestadores de serviços, permitindo esclarecer dúvidas ou discutir detalhes dos serviços contratados.|BAIXA|
 
 ### Requisitos não Funcionais
 
@@ -115,6 +127,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-005|Assegurar que a aplicação seja acessível e funcional em diferentes dispositivos, incluindo web e dispositivos móveis.|ALTA|
 |RNF-006|A interface do usuário deve ser intuitiva e fácil de usar, garantindo que os usuários possam navegar pela plataforma, pesquisar serviços e entrar em contato com prestadores de serviços sem dificuldades.|ALTA|
 |RNF-007|A plataforma deve cumprir todas as leis e regulamentações aplicáveis relacionadas à proteção de dados, privacidade do usuário, direitos do consumidor e qualquer outra legislação relevante em todas as jurisdições onde opera.|MÉDIA|
+|RNF-008|O sistema deve ser compatível com uma ampla variedade de navegadores web populares, incluindo Chrome, Firefox, Safari e Edge, garantindo uma experiência consistente para todos os usuários, independentemente do navegador utilizado. |ALTA|
+|RNF-009|O sistema deve seguir um design coeso e consistente em todas as suas páginas e funcionalidades, garantindo uma experiência de usuário unificada e reconhecível em toda a aplicação. |ALTA|
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
