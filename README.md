@@ -21,9 +21,13 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Pedro Alves de Oliveira
 
-## Instruções de utilização
+## Instruções de utilização / Manual do Usuário
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+
+**APENAS UMA IDEIA INIAL ABAIXO (PEDRO)**
+
+[Manual do Usuário - Sistema de Contratação de Serviços Locai.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/files/14471018/Manual.do.Usuario.-.Sistema.de.Contratacao.de.Servicos.Locai.pdf)
 
 # Documentação
 
