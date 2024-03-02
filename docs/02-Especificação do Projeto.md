@@ -14,6 +14,10 @@ Nessa etapa serão detalhadas as especificações do projeto para o desenvolvime
 
 * João Cláudio: João é um profissional ocupado e está sempre em busca de maneiras convenientes de atender às suas necessidades diárias. Ele deseja uma plataforma centralizada onde possa explorar facilmente os produtos e serviços oferecidos por vendedores locais, fazer pedidos online e receber suas compras de forma rápida e segura. João apreciaria recursos como avaliações de outros consumidores. 
 
+* Ana Paula: Ana é uma mãe ocupada que trabalha em período integral e cuida de seus dois filhos pequenos. Ela recentemente se mudou para uma nova cidade e está enfrentando dificuldades para encontrar prestadores de serviços locais confiáveis. Ana precisa urgentemente de um encanador para consertar uma torneira vazando em sua casa, mas não tem ideia de por onde começar a procurar. Ela não conhece ninguém na área que possa lhe fornecer recomendações confiáveis e está preocupada em contratar um profissional desconhecido que possa fazer um trabalho de baixa qualidade ou cobrar preços exorbitantes.
+
+* Miguel Souza: Miguel é o proprietário de uma pequena empresa de jardinagem que presta serviços em sua cidade há mais de uma década. Nos últimos anos, ele tem notado uma queda no número de clientes, especialmente em comparação com as grandes redes de jardinagem que investem pesadamente em marketing e publicidade. Miguel sabe que oferece serviços de alta qualidade a preços competitivos, mas luta para se fazer notar pelos clientes locais que estão cada vez mais recorrendo às grandes cadeias.
+
 > **Links Úteis**:
 > - [Rock Content](https://rockcontent.com/blog/personas/)
 > - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
@@ -34,8 +38,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Paulo Roberto |Encontrar clientes que precisem de um profissional em serviços hidráulicos. | Aumentar o portfólio de clientes e assim aumentar os lucros.|
 |Amanda |Encontrar profissionais que possam prestar serviços de reforma e manutenção do seu imóvel e do seu veículo.|Ter contato de profissionais de confiança para poder acionar quando necessário.|
 |João Cláudio |Explorar facilmente os produtos e serviços locais através da plataforma.|Economizar tempo nas minhas compras diárias, tornando o processo mais eficiente e conveniente.|
-
-
+|Ana Paula |Encontrar profissionais confiáveis na nova cidade onde se mudou.|Ana precisa de uma solução rápida e confiável para resolver seu problema doméstico.|
+|Miguel Souza |Um Marketplace de Serviços Locais que permita a listagem de sua empresa para alcançar novos clientes locais e concorrer de maneira mais eficaz com as grandes cadeias.|Miguel busca uma maneira de promover sua empresa localmente e alcançar clientes que estão cada vez mais recorrendo a grandes redes.|
 
 
 
