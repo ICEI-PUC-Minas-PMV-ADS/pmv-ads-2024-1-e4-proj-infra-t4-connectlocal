@@ -20,11 +20,6 @@ Quanto aos prestadores de serviço e comerciantes, eles nem sempre sabem se faze
 
 Tais casos tocam num problema comum que é a dificuldade de o cliente encontrar um prestador de serviço e vice e versa. Esse problema, como já citamos, envolve outros (como a falta de referências dos profissionais, a disputa deles com redes maiores etc.), todavia ele pode envolver também soluções comuns. Nesse caso, fica clara a necessidade de uma proposta que simplifique e agilize o processo de busca, contratação e prestação de serviços locais. É especificamente nesse ponto que nosso projeto se debruça. A criação de um Marketplace de Serviços Locais surge como uma solução eficaz para resolver esses problemas, na medida em que fornece uma plataforma centralizada e confiável na qual os usuários podem encontrar uma variedade de serviços, ler avaliações e recomendações de outros clientes, entrar em contato com os prestadores e realizar transações seguras e protegidas.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 O objetivo geral deste projeto é desenvolver um software que contribua para diminuir a distância entre clientes e comerciantes/prestadores de serviço locais. Esse software consistirá num marketplace, uma plataforma que irá centralizar a oferta de serviços locais num site acessível e fácil de usar. 
@@ -40,39 +35,17 @@ O primeiro poderá buscar pelo segundo (usando um sistema de busca) e entrar em 
 O segundo, por sua vez, poderá preencher uma página explicando que serviço oferece, que regiões atende e quais são suas especificidades, além de responder mensagens de clientes.  
 
 Após um serviço ser realizado, o cliente poderá avaliar aquele que lhe prestou um serviço, sendo que essa avaliação passará a constar nas avaliações daquele profissional. 
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
-Este projeto visa atingir os problemas de dois grupos em específico: aqueles que buscam produtos e serviços geograficamente próximos de si, e aqueles que vendem esses mesmos produtos e serviços precisam se fazer visíveis para seu público-alvo. 
+A criação de uma plataforma de Marketplace de Serviços Locais tenciona atingir dois problemas: de um lado, a dificuldade das pessoas de encontrar produtos e serviços locais, com os preços e vantagens que estes oferecem, de outro, a dificuldade dos comerciantes/prestadores de serviços de chegarem a esses clientes.  
 
- 
+A existência desse espaço entre ambos faz com que os clientes, com certa frequência, só consigam seus produtos e serviços em grandes redes ou por preços mais altos. O oferecimento de uma plataforma com uma ampla gama de serviços que vão desde serviços de manutenção residencial e reparos domésticos até cuidados com animais de estimação, serviços de beleza, consultoria financeira e muito mais, em única plataforma online. Assim os usuários terão a conveniência de encontrar tudo o que precisa em um só lugar. Ao mesmo tempo, ele faz com que os comerciantes/prestadores não acessem clientes com os quais, justamente por estarem perto geograficamente de si, poderiam constituir uma relação longa e conveniente para ambos. A exemplo disso, esses prestadores poderiam se beneficiar da rede de contato de cada cliente, que é tão ou mais eficiente do que outras formas de divulgação. Portanto, a ocupação desse espaço incita a prospecção de novos clientes, a aproximação de dois grupos que têm a ganhar — em termos financeiros e mesmo outros — encontrando-se. A plataforma também proporciona segurança nas transações, o que contribui para a segurança tanto do cliente quando do comerciante/prestador. Por fim, os usuários também podem ler avaliações e recomendações de outros clientes, o que facilita a escolha do prestador mais adequado para suas necessidades específicas, bem como fazer avaliações ao final das compras, contribuindo com os futuros clientes. 
 
-O projeto visa atingir a dificuldade de comerciantes e trabalhadores com comércio e serviços menores, embora “menor” possa abranger vários tamanhos.  
-
-Do ponto de vista do usuário, ele funciona como uma busca dentro de uma região, sendo que os indivíduos daquele local estarão dispostos num mesmo lugar, o que facilita a busca e a escolha do profissional dentro do escopo desejado.  
-
-Nesse sentido, o projeto instrumentaliza uma necessidade, podendo ser aplicado em diferentes contextos na medida em que não responde à demanda de um lugar específico, mas de algo que ocorre em toda parte.  
-
-Aqueles mesmos que oferecem serviços são também possíveis consumidores da plataforma.  
-
-O desenvolvimento de uma plataforma de Marketplace de Serviços Locais se justifica pela necessidade de uma solução que visa conectar prestadores de serviços locais a usuários que demandam dos serviços ofertados. Essa plataforma online contribuirá para fomentar o comercio local através da otimização do mercado de serviços, proporcionando um maior desenvolvimento econômico das comunidades. 
-
-O oferecimento de uma  com uma ampla gama de serviços que vão desde serviços de manutenção residencial e reparos domésticos até cuidados com animais de estimação, serviços de beleza, consultoria financeira e muito mais, em única plataforma online. Assim os usuários terão a conveniência de encontrar tudo o que precisa em um só lugar. Os usuários também irão dispor de acesso a avaliações e recomendações de outros clientes, permitindo-lhes tomar decisões mais assertivas quanto ao serviço contratado. Além disso, o processo de contratação é simplificado e seguro, com opções de pagamento online. 
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Dessa forma, o projeto instrumentaliza uma necessidade, podendo ser aplicado em diferentes contextos na medida em que não responde à demanda de um lugar específico, contudo de algo que ocorre em toda parte. A mesma plataforma pode ser replicada em regiões distintas e contribuir para o fomento do comércio local através da otimização do mercado de serviços, proporcionando um maior desenvolvimento econômico das comunidades. Ao abordar esses desafios de forma abrangente e integrada, o Marketplace de Serviços Locais tem o potencial de transformar radicalmente a maneira como os consumidores encontram e contratam serviços locais, ao mesmo tempo em que oferece suporte e oportunidades de crescimento para os prestadores de serviços. 
 
 ## Público-Alvo
 
-O público-alvo Da plataforma Marketplace de Serviços Locais é diversificado e abrange diferentes grupos de consumidores e prestadores de serviços, sejam usuários individuais ou empresas. A plataforma visa atender às necessidades das partes, demanda por serviço e oferta de serviço, proporcionando uma experiência satisfatória. 
+Uma vez que a plataforma visa facilitar que clientes encontrem um comerciante/prestador de serviço, seu público-alvo abarca esses dois grupos: pessoas que precisam encontrar um produto/serviço geograficamente perto de si, e comerciantes/prestadores de serviço que ofertem o que esse cliente busca. Ambos os grupos são bastante amplos, podendo comportar diferentes tipos de pessoas, em diferentes locais. 
 
-Comércio local, pessoas com pequenos negócios, aqueles que normalmente não fariam um site ou não teriam muitos meios para promover seu negócio. 
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+No que diz respeito aos comerciantes/prestadores, por exemplo, isso pode abarcar tanto indivíduos com pequenos negócios, que normalmente não fariam um site ou não teriam muitos meios para promover seu negócio, quanto empresas locais, que encontrarão na plataforma uma maneira de ganhar mais projeção dentro de suas regiões. A plataforma visa fornecer um sistema simples e acessível para ambos, ampliando sua visibilidade para o público que os rodeia. 
