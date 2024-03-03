@@ -104,17 +104,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001|A aplicação deve permitir que prestadores de serviço ofereçam seu trabalho|ALTA| 
-|RF-002|A aplicação deve permitir que consumidores pesquisem por serviços que estejam precisando|ALTA|
-|RF-003|A aplicação deve permitir que os consumidores deixem avaliações e comentários sobre os produtos e vendedores, promovendo a transparência e a confiança na comunidade.|MÉDIA|
-|RF-004|Os usuários devem poder realizar buscas detalhadas por produtos, categorias e vendedores locais.|ALTA|
-|RF-005|Os usuários devem poder visualizar avaliações e recomendações de outros clientes sobre os prestadores de serviços listados na plataforma.|MÉDIA|
-|RF-006|Os usuários devem ser capazes de agendar serviços diretamente pelo aplicativo, escolhendo uma data e horário que seja conveniente para eles.|ALTA|
-|RF-007|A plataforma deve permitir que os prestadores de serviços locais, listem suas empresas, incluindo detalhes sobre os serviços oferecidos, fotos e informações de contato.|ALTA|
-|RF-008|Deve haver uma funcionalidade que permita aos prestadores de serviços personalizar seus perfis com informações relevantes sobre sua empresa, como portfólio, horário de funcionamento e políticas de preços.|ALTA|
-|RF-009|Cada usuário deve ter um perfil onde possa gerenciar suas informações pessoais, histórico de serviços contratados, avaliações recebidas e pagamentos realizados.|ALTA|
-|RF-010|O sistema deve permitir que os usuários compartilhem avaliações e recomendações sobre os serviços contratados em suas redes sociais, aumentando a visibilidade e credibilidade do sistema.|MÉDIA|
-|RF-011|O sistema deve oferecer uma opção de chat ou mensagens internas para facilitar a comunicação direta entre os usuários e os prestadores de serviços, permitindo esclarecer dúvidas ou discutir detalhes dos serviços contratados.|BAIXA|
+|RF-001|A aplicação deve permitir que prestadores de serviço cadastrem os seus serviços através do site para promover seu trabalho|ALTA| 
+|RF-002|A aplicação deve permitir que os usuários efetuem cadastro e login através do sistema|ALTA|
+|RF-003|A aplicação deve permitir que os usuários possam recuperar seus dados como senha para acessar o site|MÉDIA|
+|RF-004|A aplicação deve permitir que os consumidores deixem avaliações e comentários sobre os produtos e vendedores, promovendo a transparência e a confiança na comunidade.|MÉDIA|
+|RF-005|Os usuários devem poder realizar buscas detalhadas por produtos, categorias e vendedores locais.|ALTA|
+|RF-006|Os usuários devem poder visualizar avaliações e recomendações de outros clientes sobre os prestadores de serviços listados na plataforma.|MÉDIA|
+|RF-007|Os usuários devem ser capazes de agendar serviços diretamente pelo aplicativo, escolhendo uma data e horário que seja conveniente para eles.|ALTA|
+|RF-008|A plataforma deve permitir que os prestadores de serviços locais, listem suas empresas, incluindo detalhes sobre os serviços oferecidos, fotos e informações de contato.|ALTA|
+|RF-009|Deve haver uma funcionalidade que permita aos prestadores de serviços personalizar seus perfis com informações relevantes sobre sua empresa, como portfólio, horário de funcionamento e políticas de preços.|ALTA|
+|RF-0010|Cada usuário deve ter um perfil onde possa gerenciar suas informações pessoais, histórico de serviços contratados, avaliações recebidas e pagamentos realizados.|ALTA|
+|RF-011|O sistema deve permitir que os usuários compartilhem avaliações e recomendações sobre os serviços contratados em suas redes sociais, aumentando a visibilidade e credibilidade do sistema.|MÉDIA|
+|RF-012|O sistema deve oferecer uma opção de chat ou mensagens internas para facilitar a comunicação direta entre os usuários e os prestadores de serviços, permitindo esclarecer dúvidas ou discutir detalhes dos serviços contratados.|BAIXA|
 
 ### Requisitos não Funcionais
 
@@ -131,20 +132,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-009|O sistema deve seguir um design coeso e consistente em todas as suas páginas e funcionalidades, garantindo uma experiência de usuário unificada e reconhecível em toda a aplicação. |ALTA|
 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
