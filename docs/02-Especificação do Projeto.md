@@ -124,8 +124,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001|A aplicação deve ser intuitiva e fácil de ser utilizada por qualquer tipo de usuário|ALTA|
 |RNF-002|A aplicação deve ser responsiva e se adaptar a qualquer tamanho de dispositivo|ALTA|
 |RNF-003|A aplicação deve operar em um ambiente de computação em nuvem.|ALTA|
-|RNF-004|Garantir que a aplicação responda rapidamente às interações do usuário, mesmo em condições de tráfego intenso.|ALTA|
-|RNF-005|Assegurar que a aplicação seja acessível e funcional em diferentes dispositivos, incluindo web e dispositivos móveis.|ALTA|
+|RNF-004|A aplicação deve garantir que a aplicação responda rapidamente às interações do usuário, mesmo em condições de tráfego intenso.|ALTA|
+|RNF-005|A aplicação deve assegurar que seja acessível e funcional em diferentes dispositivos, incluindo web e dispositivos móveis.|ALTA|
 |RNF-006|A interface do usuário deve ser intuitiva e fácil de usar, garantindo que os usuários possam navegar pela plataforma, pesquisar serviços e entrar em contato com prestadores de serviços sem dificuldades.|ALTA|
 |RNF-007|A plataforma deve cumprir todas as leis e regulamentações aplicáveis relacionadas à proteção de dados, privacidade do usuário, direitos do consumidor e qualquer outra legislação relevante em todas as jurisdições onde opera.|ALTA|
 |RNF-008|O sistema deve ser compatível com uma ampla variedade de navegadores web populares, incluindo Chrome, Firefox, Safari e Edge, garantindo uma experiência consistente para todos os usuários, independentemente do navegador utilizado. |ALTA|
