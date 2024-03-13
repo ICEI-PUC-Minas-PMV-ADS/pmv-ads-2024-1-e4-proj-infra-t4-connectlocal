@@ -1,7 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace connectLocalDm.Models
+﻿namespace pmv-ads-2024-1-e4-proj-infra-t4-connectlocal.Models
+
 {
     [Table("Contratantes")]
     public class Contratante
