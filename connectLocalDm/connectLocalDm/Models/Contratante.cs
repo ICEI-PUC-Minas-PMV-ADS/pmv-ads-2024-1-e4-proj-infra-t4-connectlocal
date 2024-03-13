@@ -19,5 +19,7 @@ namespace connectLocalDm.Models
         [Required]
         public string CPF { get; set; }
 
+        public ICollection<Prestador> Prestadores { get; set;}
+
     }
 }

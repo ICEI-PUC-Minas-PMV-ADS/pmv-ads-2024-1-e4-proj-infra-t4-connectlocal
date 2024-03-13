@@ -23,6 +23,11 @@ namespace connectLocalDm.Models
         [Required]
         public string CNPJ { get; set; }
 
+        [Required]
+        public int ContratanteId { get; set; }
+
+        public Contratante Contratante { get; set; }   
+
     }
 
     public enum TipoServico
