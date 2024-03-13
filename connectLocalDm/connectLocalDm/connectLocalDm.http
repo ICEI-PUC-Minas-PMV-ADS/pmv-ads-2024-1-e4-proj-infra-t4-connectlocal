@@ -1,0 +1,6 @@
+@connectLocalDm_HostAddress = http://localhost:5211
+
+GET {{connectLocalDm_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
