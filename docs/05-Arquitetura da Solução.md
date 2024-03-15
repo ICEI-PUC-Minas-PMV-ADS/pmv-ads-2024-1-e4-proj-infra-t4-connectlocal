@@ -26,7 +26,9 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER�
 ## Justificativa e avaliação do modelo de dados NoSQL para o contexto da aplicação
 
 O principal motivo para a adoção do banco de dados não relacional é a flexibilidade que este modelo fornece, uma vez que ele permite a organização de dados de uma maneira mais livre do que o relacional. Embora o modelo relacional possa funcionar inicialmente na plataforoma, a medida que a marketplace aumentasse seu volume de dados e sofresse mudanças para se adequar às novidades do negócio, uma estrutura muito rígida dificultaria que o armazenamento de dados seja redesenhado. Com isso, o modelo não relacional ganha relevância como uma solução nesse sentido, uma vez que ele permite que ocorra uma reorganização da estrutura de dados e que ela seja adaptada a novas funcionalidades e necessidades advindas do modelo de negócio.
+
 Além disso, mesmo com o crescimento do negócio, esse modelo de banco de dados mantém uma boa agilidade, sendo bastante escalável, o que permitirá manter a plataforma rápida e as atualizações fáceis.
+
 Quanto ao modelo de armazenamento, os dados do projeto serão armazenados a partir da estrutura de chave valor. Trata-se de uma estrutura simples e ágil, adequada para tratar dados de baixa persistência e que apresenta uma boa escalabilidade horizontal, caso seja preciso reorganizar os dados de algum modo que requeira a reorganização das informações ligadas a cada chave. 
 
 ## Modelo Físico
