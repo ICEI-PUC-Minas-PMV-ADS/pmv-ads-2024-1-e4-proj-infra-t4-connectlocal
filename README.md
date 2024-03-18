@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# CONNECTLOCAL
 
 `Análise e Desenvolvimento de Sistemas/PUC-MG`
 
