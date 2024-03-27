@@ -6,7 +6,7 @@
 
 `QUARTO SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto desenvolvido tem como objetivo auxiliar pessoas a encontrar prestadores de serviços locais, próximos ao local de trabalho ou residência. Assim como indivíduos que ofereçam algum tipo de trabalho, poderem ter acesso a pessoas que desejam contratar os seus serviços. 
 
 ## Integrantes
 
