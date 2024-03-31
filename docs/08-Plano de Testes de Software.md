@@ -7,52 +7,15 @@ O Plano de Teste do Software tem como finalidade atingir os seguintes objetivos:
 3.	Assegurar que os usuários consigam utilizar a aplicação com facilidade e sem dificuldades;
 4.	Assegurar a acessibilidade, independentemente de possíveis limitações do usuário.
 
-Caso de Teste	CT-01 – Gerenciamento da Compra pelo Cliente
-Requisito Associado	- O sistema deve permitir a adição, edição e exclusão de compras de prestação de serviços no sistema antes de ser efetuado o pagamento.
-Objetivo do Teste	- Verificar se as funcionalidades de adição, edição e exclusão de compras estão funcionando corretamente e se as informações são armazenadas corretamente no sistema.
-Passos	- Acessar o sistema.
-- Acessar os serviços.
-- Navegar pelo cardápio.
-- Executar os seguintes casos de teste em sequência:
- Clicar no item que deseja fazer a compra.
-a) Na tela de pedido clicar no pedido errado e excluir antes da compra.
-B) Na tela do pedido fazer a edição acrescentando mais quantidade do mesmo item antes do envio.
-c) Verificar os itens escolhidos foram encaminhados para o carrinho.
-Critérios de Êxito	- Os casos de teste são executados sem erros ou falhas.
-- O sistema é capaz de adicionar, editar e excluir o pedido
-Caso de Teste	CT-02 – Acompanhar Status do Pedido pelo Cliente
-Requisito Associado	- O sistema deve permitir o acompanhamento do status do pedido.
-Objetivo do Teste	- Verificar se o sistema é capaz de acompanhar o status do pedido adquirido.
-Passos	- Acessar o sistema.
-- Navegar para a página do status da compra.
-- Selecionar a compra.
-- Verificar o status atual da compra.
-Critérios de Êxito	- Os casos de teste são executados sem erros ou falhas.
-- O sistema é capaz de acompanhar o status de cada ferramenta corretamente.
-Caso de Teste	CT-03 – Gerenciamento do Serviço Adquirido pelo Cliente
-Requisito Associado	- O sistema deve permitir a verificação do serviço contratado pelo cliente pelo prestador de serviço no sistema.
-Objetivo do Teste	- Verificar se as funcionalidades de consulta ao sistema comprado estão funcionando corretamente e se as informações são armazenadas corretamente no sistema conforme a ação executada.
-Passos	- Acessar o sistema.
-- Acessar os pedidos realizado pelo cliente.
-- Executar os seguintes casos de teste em sequência:
- Clicar no item que deseja verificar no pedido.
-a) Na tela de pedido clicar no pedido.
-Critérios de Êxito	- Os casos de teste são executados sem erros ou falhas.
-- O sistema é capaz de exibir o serviço contratado e sua forma de pagamento.
-Caso de Teste	CT-04 – Gerenciamento da Oferta de Serviços
-Requisito Associado	- O sistema deve permitir que os vendedores adicione, altere e retire itens de venda e seu preço.
-Objetivo do Teste	- Verificar se as funcionalidades de adição, edição e exclusão das prestações de serviços se estão funcionando corretamente e se as informações são armazenadas corretamente no sistema.
-Passos	- Acessar o sistema.
-- Realizar login como usuário.
-- Acessar o serviço que será prestado.
-- Executar os seguintes casos de teste em sequência:
- Clicar no item que deseja fazer alterar no serviço de venda.
-a) Na tela de venda clicar no serviço e efetuar a exclusão.
-B) Na tela de venda clicar no serviço e fazer a edição do serviço ofertado alterando preços e descrição de itens.
-c) Na tela de venda acrescentar o serviço que deseja vender.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/114544326/5c874966-2c28-4dd8-9510-bf7d2f0d54f2)
 
-Critérios de Êxito	- Os casos de teste são executados sem erros ou falhas.
-- O sistema é capaz de adicionar, editar e excluir os serviços que são colocados à venda
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/114544326/da017ea4-5e19-4359-aab0-9b93b9c7abe1)
+
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/114544326/453ad08c-952f-405b-b21b-351c3a9fd863)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/114544326/b86218b0-a1cc-45f9-9834-4795fb298a97)
 
 
 
