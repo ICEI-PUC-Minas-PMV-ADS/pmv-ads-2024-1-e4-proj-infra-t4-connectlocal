@@ -1,11 +1,25 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+O Plano de Teste do Software tem como finalidade atingir os seguintes objetivos:
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+1.	Garantir que a aplicação esteja funcionando corretamente em qualquer dispositivo móvel, tais como smartphones, tablets e computadores;
+2.	Verificar se todas as funcionalidades estão operando corretamente, garantindo assim que a aplicação esteja cumprindo suas funções de forma eficaz;
+3.	Assegurar que os usuários consigam utilizar a aplicação com facilidade e sem dificuldades;
+4.	Assegurar a acessibilidade, independentemente de possíveis limitações do usuário.
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
- 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/114544326/5c874966-2c28-4dd8-9510-bf7d2f0d54f2)
+
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/114544326/da017ea4-5e19-4359-aab0-9b93b9c7abe1)
+
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/114544326/453ad08c-952f-405b-b21b-351c3a9fd863)
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/114544326/b86218b0-a1cc-45f9-9834-4795fb298a97)
+
+
+
+
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.

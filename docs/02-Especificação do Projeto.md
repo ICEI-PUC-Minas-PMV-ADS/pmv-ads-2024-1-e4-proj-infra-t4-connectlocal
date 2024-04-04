@@ -144,8 +144,6 @@ O diagrama de casos de uso é o próximo passo após a elicitação de requisito
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/114544326/67c7cf0f-3b0c-4003-927f-6c5f4f58f572)
 
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
 
 
 # Matriz de Rastreabilidade
