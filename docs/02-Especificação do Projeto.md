@@ -104,7 +104,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-009|Deve haver uma funcionalidade que permita aos prestadores de serviços personalizar seus perfis com informações relevantes sobre sua empresa, como portfólio, horário de funcionamento e políticas de preços.|ALTA|
 |RF-0010|Cada usuário deve ter um perfil onde possa gerenciar suas informações pessoais, histórico de serviços contratados, avaliações recebidas e pagamentos realizados.|ALTA|
 |RF-011|O sistema deve permitir que os usuários compartilhem avaliações e recomendações sobre os serviços contratados em suas redes sociais, aumentando a visibilidade e credibilidade do sistema.|MÉDIA|
-|RF-012|O sistema deve oferecer uma opção de chat ou mensagens internas para facilitar a comunicação direta entre os usuários e os prestadores de serviços, permitindo esclarecer dúvidas ou discutir detalhes dos serviços contratados.|BAIXA|
 
 ### Requisitos não Funcionais
 
