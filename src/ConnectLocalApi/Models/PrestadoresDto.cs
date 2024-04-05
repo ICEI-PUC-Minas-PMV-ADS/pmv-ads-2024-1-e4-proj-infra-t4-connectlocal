@@ -25,5 +25,7 @@ namespace ConnectLocalApi.Models
         public string Email { get; set; }
         [Required]
         public string CNPJ { get; set; }
+        [Required]
+        public string Funcionamento { get; set; }
     }
 }
