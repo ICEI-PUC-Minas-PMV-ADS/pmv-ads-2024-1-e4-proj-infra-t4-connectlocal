@@ -37,9 +37,39 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Vamos listar as tecnologias que podem ser utilizadas para implementar a solução de um Marketplace de Serviços Locais:
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+### Frontend:
+1. **HTML, CSS, JavaScript**: Para a estrutura, estilo e interatividade da interface do usuário.
+2. **ReactJS, Angular, Vue.js**: Frameworks JavaScript para o desenvolvimento de interfaces de usuário dinâmicas e responsivas.
+3. **Bootstrap, Materialize CSS**: Frameworks CSS para facilitar o design responsivo e a estilização dos componentes.
+4. **Redux, Context API**: Para gerenciamento de estado da aplicação.
+
+### Backend:
+1. **Node.js**: Ambiente de execução JavaScript no servidor.
+2. **Express.js, Koa.js**: Frameworks Node.js para construção de APIs RESTful.
+3. **MongoDB, MySQL**: Bancos de dados para armazenar informações dos usuários, prestadores, serviços, transações, etc.
+4. **Mongoose (para MongoDB), Sequelize (para MySQL/PostgreSQL)**: ODMs (Object Data Mapping) para facilitar a interação com o banco de dados.
+5. **JWT (JSON Web Tokens)**: Para autenticação e autorização de usuários.
+6. **Nginx, Apache**: Servidores web para hospedar a aplicação.
+
+### Integrações e Serviços Web:
+1. **AWS, Azure, Google Cloud**: Para hospedagem em nuvem, armazenamento de arquivos, escalabilidade, etc.
+2. **Firebase**: Para autenticação, armazenamento de dados em tempo real, notificações push, etc.
+
+### Ferramentas e IDEs:
+1. **Visual Studio Code, Atom, Sublime Text**: IDEs populares para desenvolvimento.
+2. **Postman, Insomnia**: Para testar e depurar APIs.
+3. **Git, GitHub, GitLab**: Controle de versão e colaboração no desenvolvimento.
+4. **Docker, Kubernetes**: Para orquestração de contêineres e gerenciamento de implantações.
+5. **Adobe XD, Figma**: Ferramentas de design para prototipagem e criação de wireframes.
+
+### Fluxo de Interação:
+1. **Usuário Acessa o Frontend**: A interação do usuário começa ao acessar a interface frontend do Marketplace através de um navegador web ou aplicativo.
+2. **Requisição ao Backend**: Ao interagir com os componentes da interface (como formulários de login, busca por serviços, agendamento, etc.), são feitas requisições ao backend da aplicação.
+3. **Processamento no Backend**: O backend processa as requisições, realiza autenticação, consulta ao banco de dados, manipulação de dados, etc.
+4. **Resposta ao Frontend**: O backend retorna uma resposta para o frontend, que pode ser uma página renderizada, dados JSON para atualização da interface, ou outras respostas conforme a interação.
+5. **Exibição na Interface do Usuário**: A resposta é exibida na interface do usuário, permitindo a interação contínua e o ciclo se repete conforme ações do usuário.
 
 ## Hospedagem
 
