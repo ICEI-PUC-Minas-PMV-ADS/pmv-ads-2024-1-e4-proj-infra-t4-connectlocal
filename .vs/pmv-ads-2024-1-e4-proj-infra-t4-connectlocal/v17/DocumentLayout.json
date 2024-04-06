@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\dmend\\Downloads\\pmv-ads-2024-1-e4-proj-infra-t4-connectlocal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dmend\\Downloads\\pmv-ads-2024-1-e4-proj-infra-t4-connectlocal\\src\\ConnectLocalApi\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ConnectLocalApi\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dmend\\Downloads\\pmv-ads-2024-1-e4-proj-infra-t4-connectlocal\\src\\ConnectLocalApi\\Controllers\\ContratantesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ConnectLocalApi\\Controllers\\ContratantesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dmend\\Downloads\\pmv-ads-2024-1-e4-proj-infra-t4-connectlocal\\src\\ConnectLocalApi\\Services\\ConnectLocalService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ConnectLocalApi\\Services\\ConnectLocalService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dmend\\Downloads\\pmv-ads-2024-1-e4-proj-infra-t4-connectlocal\\src\\ConnectLocalApi\\Controllers\\PrestadoresController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ConnectLocalApi\\Controllers\\PrestadoresController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +34,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dmend\\Downloads\\pmv-ads-2024-1-e4-proj-infra-t4-connectlocal\\src\\ConnectLocalApi\\Program.cs",
-              "RelativeDocumentMoniker": "src\\ConnectLocalApi\\Program.cs",
-              "ToolTip": "C:\\Users\\dmend\\Downloads\\pmv-ads-2024-1-e4-proj-infra-t4-connectlocal\\src\\ConnectLocalApi\\Program.cs",
-              "RelativeToolTip": "src\\ConnectLocalApi\\Program.cs",
+              "DocumentIndex": 1,
+              "Title": "ConnectLocalService.cs",
+              "DocumentMoniker": "C:\\Users\\dmend\\Downloads\\pmv-ads-2024-1-e4-proj-infra-t4-connectlocal\\src\\ConnectLocalApi\\Services\\ConnectLocalService.cs",
+              "RelativeDocumentMoniker": "src\\ConnectLocalApi\\Services\\ConnectLocalService.cs",
+              "ToolTip": "C:\\Users\\dmend\\Downloads\\pmv-ads-2024-1-e4-proj-infra-t4-connectlocal\\src\\ConnectLocalApi\\Services\\ConnectLocalService.cs",
+              "RelativeToolTip": "src\\ConnectLocalApi\\Services\\ConnectLocalService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T10:21:06.947Z",
+              "WhenOpened": "2024-04-05T19:23:03.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContratantesController.cs",
+              "DocumentMoniker": "C:\\Users\\dmend\\Downloads\\pmv-ads-2024-1-e4-proj-infra-t4-connectlocal\\src\\ConnectLocalApi\\Controllers\\ContratantesController.cs",
+              "RelativeDocumentMoniker": "src\\ConnectLocalApi\\Controllers\\ContratantesController.cs",
+              "ToolTip": "C:\\Users\\dmend\\Downloads\\pmv-ads-2024-1-e4-proj-infra-t4-connectlocal\\src\\ConnectLocalApi\\Controllers\\ContratantesController.cs",
+              "RelativeToolTip": "src\\ConnectLocalApi\\Controllers\\ContratantesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T16:18:17.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PrestadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\dmend\\Downloads\\pmv-ads-2024-1-e4-proj-infra-t4-connectlocal\\src\\ConnectLocalApi\\Controllers\\PrestadoresController.cs",
+              "RelativeDocumentMoniker": "src\\ConnectLocalApi\\Controllers\\PrestadoresController.cs",
+              "ToolTip": "C:\\Users\\dmend\\Downloads\\pmv-ads-2024-1-e4-proj-infra-t4-connectlocal\\src\\ConnectLocalApi\\Controllers\\PrestadoresController.cs",
+              "RelativeToolTip": "src\\ConnectLocalApi\\Controllers\\PrestadoresController.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T15:15:37.099Z",
               "EditorCaption": ""
             }
           ]
