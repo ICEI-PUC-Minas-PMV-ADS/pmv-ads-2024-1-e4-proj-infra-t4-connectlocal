@@ -2,7 +2,7 @@
 
 ## RF-001
 
-Na criação de um prestador ele pode informar seus dados, tipos de serviços prestados, horario de funcionamento, e a descrição dos seus serviços.
+Na criação de um prestador ele pode informar seus dados, tipos de serviços prestados, horário de funcionamento, e a descrição dos seus serviços.
 
 Código da API:
 ```
