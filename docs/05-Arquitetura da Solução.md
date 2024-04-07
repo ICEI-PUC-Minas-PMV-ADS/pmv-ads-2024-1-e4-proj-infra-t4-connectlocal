@@ -32,10 +32,6 @@ Além disso, mesmo com o crescimento do negócio, esse modelo de banco de dados 
 
 Quanto ao modelo de armazenamento, os dados do projeto serão armazenados a partir da estrutura de chave valor. Trata-se de uma estrutura simples e ágil, adequada para tratar dados de baixa persistência e que apresenta uma boa escalabilidade horizontal, caso seja preciso reorganizar os dados de algum modo que requeira a reorganização das informações ligadas a cada chave. 
 
-## Modelo Físico
-
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
-
 ## Tecnologias Utilizadas
 
 Vamos listar as tecnologias que podem ser utilizadas para implementar a solução de um Marketplace de Serviços Locais:
@@ -47,16 +43,13 @@ Vamos listar as tecnologias que podem ser utilizadas para implementar a soluçã
 4. **Redux, Context API**: Para gerenciamento de estado da aplicação.
 
 ### Backend:
-1. **Node.js**: Ambiente de execução JavaScript no servidor.
-2. **Express.js, Koa.js**: Frameworks Node.js para construção de APIs RESTful.
-3. **MongoDB, MySQL**: Bancos de dados para armazenar informações dos usuários, prestadores, serviços, transações, etc.
-4. **Mongoose (para MongoDB), Sequelize (para MySQL/PostgreSQL)**: ODMs (Object Data Mapping) para facilitar a interação com o banco de dados.
+3. **MongoDB: Bancos de dados para armazenar informações dos usuários, prestadores, serviços, transações, etc.
+4. **MongoDB.Driver**: ODMs (Object Data Mapping) para facilitar a interação com o banco de dados.
 5. **JWT (JSON Web Tokens)**: Para autenticação e autorização de usuários.
-6. **Nginx, Apache**: Servidores web para hospedar a aplicação.
 
 ### Integrações e Serviços Web:
-1. **AWS, Azure, Google Cloud**: Para hospedagem em nuvem, armazenamento de arquivos, escalabilidade, etc.
-2. **Firebase**: Para autenticação, armazenamento de dados em tempo real, notificações push, etc.
+1. **Azure**: Para hospedagem da aplicação em nuvem.
+2. **MongoDB Atlas Database**: Hospedagem utilizada para o bando de dados (MongoDB) utilizado na aplicação.
 
 ### Ferramentas e IDEs:
 1. **Visual Studio Code, Atom, Sublime Text**: IDEs populares para desenvolvimento.
@@ -74,7 +67,8 @@ Vamos listar as tecnologias que podem ser utilizadas para implementar a soluçã
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+Será utilizado os serviços de nuvem da Azure para a hospedagem da API.NET, será criado um Azure App Service para hospedar.
+Para o banco de dados será utilizado o MongoDB Atlas Database.
 
 > **Links Úteis**:
 >
