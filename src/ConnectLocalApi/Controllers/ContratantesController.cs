@@ -119,6 +119,7 @@ namespace ConnectLocalApi.Controllers
             return tokenHandler.WriteToken(token);
         }
 
+
         [AllowAnonymous]
         [HttpPost("recuperar_senha")]
         public async Task<ActionResult<List<string>>> RecuperarSenha(RecuperarSenhaDto model)
@@ -130,6 +131,7 @@ namespace ConnectLocalApi.Controllers
             contratante.Password = BCrypt.Net.BCrypt.HashPassword(model.Senha);
 
             await _connectLocalService.UpdateAsyncContratantes(contratante.Id, contratante);
+
 
             return NoContent();
         }
