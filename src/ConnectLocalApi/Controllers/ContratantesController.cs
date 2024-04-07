@@ -118,5 +118,20 @@ namespace ConnectLocalApi.Controllers
             var token = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(token);
         }
+
+        [AllowAnonymous]
+        [HttpPost("recuperar_senha")]
+        public async Task<ActionResult<List<string>>> RecuperarSenha(RecuperarSenhaDto model)
+        {
+            var contratante = await _connectLocalService.GetContratanteByCPF(model.Documento);
+            if (contratante == null)
+                return NotFound("Contratante não encontrado.");
+
+            contratante.Password = BCrypt.Net.BCrypt.HashPassword(model.Senha);
+
+            await _connectLocalService.UpdateAsyncContratantes(contratante.Id, contratante);
+
+            return NoContent();
+        }
     }
 }

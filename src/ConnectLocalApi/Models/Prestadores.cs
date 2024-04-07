@@ -21,5 +21,9 @@ namespace ConnectLocalApi.Models
         public string Contato { get; set; }
         public string Email { get; set; }
         public string CNPJ { get; set; }
+        public string Funcionamento { get; set; }
+        public List<Dictionary<string, string>> Avaliacoes { get; set; }
+        public float MediaNota { get; set; }
+        public List<string> Fotos { get; set; }
     }
 }
