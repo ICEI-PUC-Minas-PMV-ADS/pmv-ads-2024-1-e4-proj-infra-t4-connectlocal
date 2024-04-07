@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\presentation",
-    "\\src",
-    "\\src\\ConnectLocalApi"
+    "\\src\\ConnectLocalApi\\Controllers",
+    "\\src\\ConnectLocalApi\\Models",
+    "\\src\\ConnectLocalApi\\Services"
   ],
-  "SelectedNode": "\\src\\ConnectLocalApi\\ConnectLocalApi.sln",
+  "SelectedNode": "\\src",
   "PreviewInSolutionExplorer": false
 }

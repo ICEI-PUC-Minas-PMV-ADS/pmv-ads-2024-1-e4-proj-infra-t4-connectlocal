@@ -216,5 +216,20 @@ namespace ConnectLocalApi.Controllers
 
             return Ok(prestador.Fotos);
         }
+
+        [HttpPost("recuperar_senha")]
+        public async Task<ActionResult<List<string>>> RecuperarSenha(RecuperarSenhaPrestadorDto model)
+        {
+            var prestador = await _connectLocalService.GetPrestadorByCNPJ(model.CNPJ);
+            if (prestador == null)
+                return NotFound("Prestador não encontrado.");
+
+            prestador.Password = model.Senha
+
+            await _connectLocalService.UpdateAsyncPrestadores(prestador.Id, prestador);
+
+            return NoContent();
+        }
     }
 }
+

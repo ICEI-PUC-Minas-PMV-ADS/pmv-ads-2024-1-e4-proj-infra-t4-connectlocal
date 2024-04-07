@@ -118,5 +118,19 @@ namespace ConnectLocalApi.Controllers
             var token = tokenHandler.CreateToken(tokenDescriptor);
             return tokenHandler.WriteToken(token);
         }
+
+        [HttpPost("recuperar_senha")]
+        public async Task<ActionResult<List<string>>> RecuperarSenha(RecuperarSenhaContratanteDto model)
+        {
+            var contratante = await _connectLocalService.GetContratanteByCPF(model.CPF);
+            if (contratante == null)
+                return NotFound("Contratante não encontrado.");
+
+            contratante.Password = model.Senha
+
+            await _connectLocalService.UpdateAsyncContratante(contratante.Id, contratante);
+
+            return NoContent();
+        }
     }
 }
