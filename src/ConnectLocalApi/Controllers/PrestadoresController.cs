@@ -224,7 +224,12 @@ namespace ConnectLocalApi.Controllers
             if (prestador == null)
                 return NotFound("Prestador não encontrado.");
 
-            prestador.Password = model.Senha
+            if (string.IsNullOrEmpty(model.Senha))
+            {
+                return BadRequest("Senha não informada.");
+            }
+
+            prestador.Password = model.Senha;
 
             await _connectLocalService.UpdateAsyncPrestadores(prestador.Id, prestador);
 

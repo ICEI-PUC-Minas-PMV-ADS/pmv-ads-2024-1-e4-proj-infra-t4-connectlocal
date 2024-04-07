@@ -1,11 +1,8 @@
 ﻿using System;
 
-public class Class1
+public class RecuperarSenhaContratanteDto
 {
-	public Class1()
-	{
-        public string CPF { get; set; }
+    public string CPF { get; set; }
 
-        public string Senha { get; set; }
-    }
+    public string Senha { get; set; }
 }

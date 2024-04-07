@@ -126,9 +126,14 @@ namespace ConnectLocalApi.Controllers
             if (contratante == null)
                 return NotFound("Contratante não encontrado.");
 
-            contratante.Password = model.Senha
+            if (string.IsNullOrEmpty(model.Senha))
+            {
+                return BadRequest("Senha não informada.");
+            }
 
-            await _connectLocalService.UpdateAsyncContratante(contratante.Id, contratante);
+            contratante.Password = model.Senha;
+
+            _connectLocalService.UpdateAsyncContratante(contratante.Id, contratante);
 
             return NoContent();
         }

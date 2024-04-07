@@ -1,11 +1,8 @@
 ﻿using System;
 
-public class Class1
+public class RecuperarSenhaPrestadorDto
 {
-	public Class1()
-	{
-		public string CNPJ { get; set; }
+    public string CNPJ { get; set; }
 
-        public string Senha { get; set; }
-	}
+    public string Senha { get; set; }
 }
