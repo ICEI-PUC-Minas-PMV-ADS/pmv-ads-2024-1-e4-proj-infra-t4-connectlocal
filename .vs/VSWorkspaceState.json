@@ -1,11 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\presentation",
+    "\\.github",
+    "\\src",
+    "\\src\\ConnectLocalApi",
     "\\src\\ConnectLocalApi\\Controllers",
     "\\src\\ConnectLocalApi\\Models",
     "\\src\\ConnectLocalApi\\Services"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\src\\ConnectLocalApi\\ConnectLocalApi.csproj",
   "PreviewInSolutionExplorer": false
 }
