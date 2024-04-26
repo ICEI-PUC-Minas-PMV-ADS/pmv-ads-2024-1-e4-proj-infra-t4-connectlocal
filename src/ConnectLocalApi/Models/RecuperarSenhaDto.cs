@@ -1,3 +1,4 @@
+
 ﻿namespace ConnectLocalApi.Models
 {
     public class RecuperarSenhaDto
@@ -7,3 +8,4 @@
         public string Senha { get; set; }
     }
 }
+

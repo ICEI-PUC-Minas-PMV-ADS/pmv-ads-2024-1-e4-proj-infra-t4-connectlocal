@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "src\\ConnectLocalApi\\ConnectLocalApi.csproj",
               "ToolTip": "C:\\Users\\dmend\\Downloads\\pmv-ads-2024-1-e4-proj-infra-t4-connectlocal\\src\\ConnectLocalApi\\ConnectLocalApi.csproj",
               "RelativeToolTip": "src\\ConnectLocalApi\\ConnectLocalApi.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-04-06T19:52:00.588Z",
               "EditorCaption": ""
@@ -79,8 +79,7 @@
               "RelativeToolTip": "src\\ConnectLocalApi\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-06T19:51:52.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T19:51:52.075Z"
             },
             {
               "$type": "Document",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "src\\ConnectLocalApi\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T19:44:16.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T19:44:16.025Z"
             },
             {
               "$type": "Document",
@@ -105,8 +103,7 @@
               "RelativeToolTip": "src\\ConnectLocalApi\\Services\\ConnectLocalService.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAASwBMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T19:44:10.242Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T19:44:10.242Z"
             },
             {
               "$type": "Document",
@@ -118,8 +115,7 @@
               "RelativeToolTip": "src\\ConnectLocalApi\\Models\\PrestadoresDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T19:42:50.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T19:42:50.351Z"
             },
             {
               "$type": "Document",
@@ -131,8 +127,7 @@
               "RelativeToolTip": "src\\ConnectLocalApi\\Models\\RecuperarSenhaPrestadorDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T19:34:21.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T19:34:21.006Z"
             },
             {
               "$type": "Document",
@@ -144,8 +139,7 @@
               "RelativeToolTip": "src\\ConnectLocalApi\\Models\\RecuperarSenhaContratanteDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T19:33:52.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T19:33:52.793Z"
             },
             {
               "$type": "Document",
@@ -157,8 +151,7 @@
               "RelativeToolTip": "src\\ConnectLocalApi\\Controllers\\PrestadoresController.cs",
               "ViewState": "AQIAAM0AAAAAAAAAAAAiwPAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T19:33:42.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T19:33:42.796Z"
             },
             {
               "$type": "Document",
@@ -170,8 +163,7 @@
               "RelativeToolTip": "src\\ConnectLocalApi\\Controllers\\ContratantesController.cs",
               "ViewState": "AQIAAHUAAAAAAAAAAAASwIcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T19:33:27.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T19:33:27.154Z"
             }
           ]
         }
