@@ -119,6 +119,7 @@ namespace ConnectLocalApi.Controllers
             return tokenHandler.WriteToken(token);
         }
 
+
         [AllowAnonymous]
         [HttpPost("recuperar_senha")]
         public async Task<ActionResult<List<string>>> RecuperarSenha(RecuperarSenhaDto model)
@@ -127,14 +128,10 @@ namespace ConnectLocalApi.Controllers
             if (contratante == null)
                 return NotFound("Contratante não encontrado.");
 
-            if (string.IsNullOrEmpty(model.Senha))
-            {
-                return BadRequest("Senha não informada.");
-            }
-
             contratante.Password = BCrypt.Net.BCrypt.HashPassword(model.Senha);
 
             await _connectLocalService.UpdateAsyncContratantes(contratante.Id, contratante);
+
 
             return NoContent();
         }

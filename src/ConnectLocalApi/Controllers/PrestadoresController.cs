@@ -217,6 +217,7 @@ namespace ConnectLocalApi.Controllers
             return Ok(prestador.Fotos);
         }
 
+
         [AllowAnonymous]
         [HttpPost("recuperar_senha")]
         public async Task<ActionResult<List<string>>> RecuperarSenha(RecuperarSenhaDto model)
@@ -225,12 +226,8 @@ namespace ConnectLocalApi.Controllers
             if (prestador == null)
                 return NotFound("Prestador não encontrado.");
 
-            if (string.IsNullOrEmpty(model.Senha))
-            {
-                return BadRequest("Senha não informada.");
-            }
+            prestador.Password = BCrypt.Net.BCrypt.HashPassword(model.Senha);
 
-            prestador.Password = model.Senha;
 
             await _connectLocalService.UpdateAsyncPrestadores(prestador.Id, prestador);
 
