@@ -4,7 +4,8 @@
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-![Arquitetura da Solução](img/02-mob-arch.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/113395332/6ec7f576-e878-4888-96d6-a635064f5bc2)
+
 
 ## Diagrama de Classes
 
@@ -19,9 +20,10 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/114544326/39cabb7c-3ccf-4a02-bf9b-9259d56ff9fa)
+
+
 
 ## Justificativa e avaliação do modelo de dados NoSQL para o contexto da aplicação
 
@@ -31,19 +33,43 @@ Além disso, mesmo com o crescimento do negócio, esse modelo de banco de dados 
 
 Quanto ao modelo de armazenamento, os dados do projeto serão armazenados a partir da estrutura de chave valor. Trata-se de uma estrutura simples e ágil, adequada para tratar dados de baixa persistência e que apresenta uma boa escalabilidade horizontal, caso seja preciso reorganizar os dados de algum modo que requeira a reorganização das informações ligadas a cada chave. 
 
-## Modelo Físico
-
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
-
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Vamos listar as tecnologias que podem ser utilizadas para implementar a solução de um Marketplace de Serviços Locais:
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+### Frontend:
+1. **HTML, CSS, JavaScript**: Para a estrutura, estilo e interatividade da interface do usuário.
+2. **ReactJS, Angular, Vue.js**: Frameworks JavaScript para o desenvolvimento de interfaces de usuário dinâmicas e responsivas.
+3. **Bootstrap, Materialize CSS**: Frameworks CSS para facilitar o design responsivo e a estilização dos componentes.
+4. **Redux, Context API**: Para gerenciamento de estado da aplicação.
+
+### Backend:
+3. **MongoDB: Bancos de dados para armazenar informações dos usuários, prestadores, serviços, transações, etc.
+4. **MongoDB.Driver**: ODMs (Object Data Mapping) para facilitar a interação com o banco de dados.
+5. **JWT (JSON Web Tokens)**: Para autenticação e autorização de usuários.
+
+### Integrações e Serviços Web:
+1. **Azure**: Para hospedagem da aplicação em nuvem.
+2. **MongoDB Atlas Database**: Hospedagem utilizada para o bando de dados (MongoDB) utilizado na aplicação.
+
+### Ferramentas e IDEs:
+1. **Visual Studio Code, Atom, Sublime Text**: IDEs populares para desenvolvimento.
+2. **Postman, Insomnia**: Para testar e depurar APIs.
+3. **Git, GitHub, GitLab**: Controle de versão e colaboração no desenvolvimento.
+4. **Docker, Kubernetes**: Para orquestração de contêineres e gerenciamento de implantações.
+5. **Adobe XD, Figma**: Ferramentas de design para prototipagem e criação de wireframes.
+
+### Fluxo de Interação:
+1. **Usuário Acessa o Frontend**: A interação do usuário começa ao acessar a interface frontend do Marketplace através de um navegador web ou aplicativo.
+2. **Requisição ao Backend**: Ao interagir com os componentes da interface (como formulários de login, busca por serviços, agendamento, etc.), são feitas requisições ao backend da aplicação.
+3. **Processamento no Backend**: O backend processa as requisições, realiza autenticação, consulta ao banco de dados, manipulação de dados, etc.
+4. **Resposta ao Frontend**: O backend retorna uma resposta para o frontend, que pode ser uma página renderizada, dados JSON para atualização da interface, ou outras respostas conforme a interação.
+5. **Exibição na Interface do Usuário**: A resposta é exibida na interface do usuário, permitindo a interação contínua e o ciclo se repete conforme ações do usuário.
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+Será utilizado os serviços de nuvem da Azure para a hospedagem da API.NET, será criado um Azure App Service para hospedar.
+Para o banco de dados será utilizado o MongoDB Atlas Database.
 
 > **Links Úteis**:
 >

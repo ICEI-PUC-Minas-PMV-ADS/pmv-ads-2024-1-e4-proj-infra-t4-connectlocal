@@ -25,7 +25,7 @@ O projeto desenvolvido tem como objetivo auxiliar pessoas a encontrar prestadore
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
-**APENAS UMA IDEIA INIAL ABAIXO (PEDRO)**
+**APENAS UMA IDEIA INICIAL ABAIXO (PEDRO)**
 
 [Manual do Usuário - Sistema de Contratação de Serviços Locais - ConnectLocal.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/files/14471018/Manual.do.Usuario.-.Sistema.de.Contratacao.de.Servicos.Locai.pdf)
 
