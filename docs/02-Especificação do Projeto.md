@@ -78,8 +78,8 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ## Indicadores de Desempenho
 
-| Indicador | Objetivos | Descrição | Cálculo | Fonte de dados |
-|--------------------|------------------------------------|----------------------------------------|
+| INDICADOR | OBJETIVOS | DESCRIÇÃO | CÁLCULO | FONTE DE DADOS |
+|-----------|-----------|-----------|---------|----------------|
 |Quantidade de novos usuários (prestadores) cadastrados por mês | Aumentar a quantidade de prestadores cadastrados no site | Mede a quantidade de novos prestadores participando do site | Número total de cadastrados a cada trinta dias | Registro de usuários (prestadores) na plataforma |
 | Quantidade de novos usuários (clientes) cadastrados por mês | Aumentar a quantidade de clientes cadastrados no site | Mede a quantidade de novos clientes no site | Número total de cadastrados a cada trinta dias | Registro de usuários (clientes) na plataforma |
 | Quantidade de logins diários | Aumentar a participação dos usuários cadastrados no site | Quantifica a participação dos usuários no site | Média de logins feitos por dia ao longo de trinta dias | Quantidade de acessos realizados dia |
