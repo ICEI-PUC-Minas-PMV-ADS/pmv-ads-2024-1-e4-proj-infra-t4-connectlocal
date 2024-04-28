@@ -78,7 +78,12 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em segu
 
 ## Indicadores de Desempenho
 
-![INDICADORES DE DESEMPENHO](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/112659128/c236988b-cda3-48ff-a0d9-019642c088bd)
+| Indicador | Objetivos | Descrição | Cálculo | Fonte de dados |
+|--------------------|------------------------------------|----------------------------------------|
+|Quantidade de novos usuários (prestadores) cadastrados por mês | Aumentar a quantidade de prestadores cadastrados no site | Mede a quantidade de novos prestadores participando do site | Número total de cadastrados a cada trinta dias | Registro de usuários (prestadores) na plataforma |
+| Quantidade de novos usuários (clientes) cadastrados por mês | Aumentar a quantidade de clientes cadastrados no site | Mede a quantidade de novos clientes no site | Número total de cadastrados a cada trinta dias | Registro de usuários (clientes) na plataforma |
+| Quantidade de logins diários | Aumentar a participação dos usuários cadastrados no site | Quantifica a participação dos usuários no site | Média de logins feitos por dia ao longo de trinta dias | Quantidade de acessos realizados dia |
+| Quantidade de reclamações recebidas | Rastrear os problemas e melhorar as funções da plataforma | Quantificar e qualificar os problemas da plataforma relatados por usuários | Quantidade de e-mails recebidos que sinalizem problemas na plataforma | Quantidade de e-mails recebidos que, quando conferidos, mostraram problemas na plataforma|
 
 ## Requisitos
 
