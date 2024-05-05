@@ -58,24 +58,22 @@ Apresente aqui as histórias de usuário que são relevantes para o projeto de s
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+Encontrar e contratar prestadores de serviços locais pode ser uma tarefa árdua que desafia a paciência de muitos usuários. Esse problema surge em decorrência de alguns problemas como a ampla variedade de prestadores de serviços atuando em diferente setores e regiões, dificultando ao consumidor encontrar o que precisa, e a falta de informações confiáveis sobre esses prestadores de serviços, como avaliações e recomendações de outros clientes.
+
+Diante desses desafios, fica clara a necessidade de uma solução que simplifique e agilize o processo de busca, contratação e prestação de serviços locais. Um Marketplace de Serviços Locais surge como uma solução inteligente e eficaz para resolver esses problemas, fornecendo uma plataforma centralizada e confiável onde os usuários podem encontrar uma variedade de serviços, ler avaliações e recomendações de outros clientes, entrar em contato com os prestadores e realizar transações seguras e protegidas.
+ 
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+A plataforma visa conectar prestadores de serviços locais a usuários que demandam dos serviços ofertados. Com isso, a plataforma contribuirá para fomentar o comercio local através da otimização do mercado de serviços, proporcionando um maior desenvolvimento econômico das comunidades. Os usuários terão a conveniência de encontrar tudo o que precisa em um só lugar contando com a avaliação de clientes que já utilizaram o serviço. 
 
 ### Processo 1 – Marketplace
 
  
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/114544326/5e2b328a-bc4a-4ac6-ad7c-3875135346d8)
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/114544326/5bcb888a-917d-471b-a4fb-83e3264631fb)
 
 
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
 
 ## Indicadores de Desempenho
 
