@@ -67,7 +67,7 @@ Diante desses desafios, fica clara a necessidade de uma solução que simplifiqu
 
 A plataforma visa conectar prestadores de serviços locais a usuários que demandam dos serviços ofertados. Com isso, a plataforma contribuirá para fomentar o comercio local através da otimização do mercado de serviços, proporcionando um maior desenvolvimento econômico das comunidades. Os usuários terão a conveniência de encontrar tudo o que precisa em um só lugar contando com a avaliação de clientes que já utilizaram o serviço. 
 
-### Processo 1 – Marketplace
+### Processo – Marketplace
 
  
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/114544326/5e2b328a-bc4a-4ac6-ad7c-3875135346d8)
