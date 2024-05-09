@@ -1,11 +1,10 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 using MongoDB.Bson;
 using System.Text.Json.Serialization;
-using System.ComponentModel.DataAnnotations;
 
 namespace ConnectLocalApi.Models
 {
-    public class Contratantes
+    public class Usuarios
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
@@ -14,11 +13,18 @@ namespace ConnectLocalApi.Models
         public string Name { get; set; }
         [JsonIgnore]
         public string Password { get; set; }
-        [JsonIgnore]
-        public string Role { get; set; }
-        public string Endereco { get; set; }
-        public string Contato { get; set; }
         public string Email { get; set; }
+        public string Contato { get; set; }
+        [JsonIgnore]
+        public string Type { get; set; }
         public string CPF { get; set; }
+        public string CNPJ { get; set; }
+        public string Cep { get; set; }
+        public string Rua { get; set; }
+        public string Numero { get; set; }
+        public string Complemento { get; set; }
+        public string Bairro { get; set; }
+        public string Cidade { get; set; }
+        public string Estado { get; set; }
     }
 }
