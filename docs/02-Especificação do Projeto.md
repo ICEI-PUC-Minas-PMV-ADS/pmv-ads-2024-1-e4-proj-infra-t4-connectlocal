@@ -2,25 +2,25 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Nessa etapa serão detalhadas as especificações do projeto para o desenvolvimento de Marketplace de Serviços Locais. Para isso, utilizaremos personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições do projeto. Essas informações fornecerão uma visão abrangente dos objetivos, funcionalidades e características essenciais da plataforma.
+Nessa etapa, serão detalhadas as especificações do projeto para o desenvolvimento de Marketplace de Serviços Locais. Para isso, utilizaremos personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições do projeto. Essas informações fornecerão uma visão abrangente dos objetivos, funcionalidades e características essenciais da plataforma.
 
 ## Personas
   
-* José Félix: Presta serviços de Borracheiro há 30 anos. 45 anos, casado, 3 filhos. Tem estabelecimento comercial onde atende clientes com qualquer tipo de veículo, desde pneus de moto, até caminhões. Filho mais velho trabalha com ele, o que contribui para que ele possa fazer atendimentos fora do estabelecimento usando a sua van.
+* José Félix (prestador de serviços): é Borracheiro há 30 anos. Tem 45 anos, é casado e possui três filhos. Tem um estabelecimento comercial onde atende clientes com qualquer tipo de veículo, desde pneus de moto, até caminhões. Seu filho mais velho trabalha com ele, o que contribui para que ele possa fazer atendimentos fora do estabelecimento usando a sua van.
 
-* Paulo Roberto: Técnico hidráulico, 58 anos. Grande experiência com vazamentos. Caso não seja possível descobrir de onde está vindo o vazamento, esse é o profissional que você precisa chamar. Resolve qualquer problema hidráulico. Casado, 1 filha. Não tem estabelecimento comercial.
+* Paulo Roberto (prestador de serviços): Técnico hidráulico. Tem 58 anos, é casado e possui uma filha. Possui grande experiência com vazamentos. Caso não seja possível descobrir de onde está vindo o vazamento, esse é o profissional que você precisa chamar, pois ele resolve qualquer problema hidráulico. Não tem estabelecimento comercial fixo.
 
-* Amanda: Divorciada, 30 anos. Mora com filho de 6 anos. É contadora, trabalha remotamente de casa. Paga financiamento imobiliário e precisa cuidar do apartamento sozinha. Por isso, tem a necessidade de acionar algum profissional quando se depara com alguma avaria no imóvel.
+* Amanda (cliente): Contadora. Tem 30 anos e mora com filho de 6 anos. Trabalha remotamente de casa. Paga financiamento imobiliário e precisa cuidar do apartamento sozinha. Por isso, tem a necessidade de acionar algum profissional quando se depara com alguma avaria no imóvel.
 
-* João Cláudio: João é um profissional ocupado e está sempre em busca de maneiras convenientes de atender às suas necessidades diárias. Ele deseja uma plataforma centralizada onde possa explorar facilmente os produtos e serviços oferecidos por vendedores locais, fazer pedidos online e receber suas compras de forma rápida e segura. João apreciaria recursos como avaliações de outros consumidores. 
+* João Cláudio (cliente): João é um profissional ocupado e está sempre em busca de maneiras convenientes de atender às suas necessidades diárias. Ele deseja uma plataforma centralizada onde possa explorar facilmente os produtos e serviços oferecidos por vendedores locais, fazer pedidos online e receber suas compras de forma rápida e segura. João apreciaria recursos como avaliações de outros consumidores. 
 
-* Ana Paula: Ana é uma mãe ocupada que trabalha em período integral e cuida de seus dois filhos pequenos. Ela recentemente se mudou para uma nova cidade e está enfrentando dificuldades para encontrar prestadores de serviços locais confiáveis. Ana precisa urgentemente de um encanador para consertar uma torneira vazando em sua casa, mas não tem ideia de por onde começar a procurar. Ela não conhece ninguém na área que possa lhe fornecer recomendações confiáveis e está preocupada em contratar um profissional desconhecido que possa fazer um trabalho de baixa qualidade ou cobrar preços exorbitantes.
+* Ana Paula (cliente): Ana é uma mãe ocupada que trabalha em período integral e cuida de seus dois filhos pequenos. Ela recentemente se mudou para uma nova cidade e está enfrentando dificuldades para encontrar prestadores de serviços locais confiáveis. Ana precisa urgentemente de um encanador para consertar uma torneira vazando em sua casa, mas não tem ideia de por onde começar a procurar. Ela não conhece ninguém na área que possa lhe fornecer recomendações confiáveis e está preocupada em contratar um profissional desconhecido que possa fazer um trabalho de baixa qualidade ou cobrar preços exorbitantes por um serviço simples.
 
-* Miguel Souza: Miguel é o proprietário de uma pequena empresa de jardinagem que presta serviços em sua cidade há mais de uma década. Nos últimos anos, ele tem notado uma queda no número de clientes, especialmente em comparação com as grandes redes de jardinagem que investem pesadamente em marketing e publicidade. Miguel sabe que oferece serviços de alta qualidade a preços competitivos, mas luta para se fazer notar pelos clientes locais que estão cada vez mais recorrendo às grandes cadeias.
+* Miguel Souza (prestador de serviços): Miguel é o proprietário de uma pequena empresa de jardinagem que presta serviços em sua cidade há mais de uma década. Nos últimos anos, ele tem notado uma queda no número de clientes, especialmente em comparação com as grandes redes de jardinagem que investem pesadamente em marketing e publicidade. Miguel sabe que oferece serviços de alta qualidade a preços competitivos, mas luta para se fazer notar pelos clientes locais que estão cada vez mais recorrendo às grandes cadeias.
 
-* Marina Oliveira: Marina Oliveira é uma profissional dedicada e bem-sucedida que atua como diretora de recursos humanos em uma grande empresa e recentemente comprou uma nova casa e precisa de diversos serviços locais, como jardinagem, limpeza, e instalação de sistemas de segurança. No entanto, ela tem enfrentado dificuldades em encontrar profissionais qualificados e confiáveis para realizar esses serviços. Marina precisa de uma solução prática e segura para contratar esses serviços, garantindo qualidade e confiabilidade.
+* Marina Oliveira (cliente): Marina Oliveira é uma profissional dedicada e bem-sucedida que atua como diretora de recursos humanos em uma grande empresa. Recentemente, ela comprou uma nova casa e precisa de diversos serviços, como jardinagem, limpeza e instalação de sistemas de segurança. No entanto, ela tem enfrentado dificuldades em encontrar profissionais qualificados e confiáveis para realizar esses serviços. Marina precisa de uma solução prática e segura para contratar esses serviços, garantindo qualidade e confiabilidade.
 
-* Luana Santos:  Luana é uma estudante de direito apaixonada por seu curso e pela justiça social e está organizando um evento de arrecadação de fundos para uma organização sem fins lucrativos local que apoia mulheres vítimas de violência doméstica. Ela precisa de diversos serviços locais para o evento, como catering, decoração, e música ao vivo. No entanto, ela tem dificuldade em encontrar profissionais qualificados e dispostos a colaborar com sua causa de forma acessível. 
+* Luana Santos (cliente):  Luana é uma estudante de direito apaixonada por seu curso e pela justiça social. Ela está organizando um evento de arrecadação de fundos para uma organização sem fins lucrativos local que apoia mulheres vítimas de violência doméstica. Ela precisa de diversos serviços locais para o evento, como catering, decoração e música ao vivo. No entanto, ela tem dificuldade em encontrar profissionais qualificados e dispostos a colaborar com sua causa de forma acessível. 
 
 
 
@@ -49,7 +49,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+
 
 
 
