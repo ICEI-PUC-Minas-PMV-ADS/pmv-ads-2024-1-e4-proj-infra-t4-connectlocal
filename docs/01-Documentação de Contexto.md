@@ -26,15 +26,15 @@ O objetivo geral deste projeto é desenvolver um software que contribua para dim
 
 Já os objetivos específicos consistem nas funcionalidades dessa plataforma as quais concorrerão para atacar o problema da distância, sendo elas:  
 
-A criação do site a partir de uma arquitetura distribuída. 
+- A criação do site a partir de uma arquitetura distribuída. 
 
-O site deve permitir o cadastro e login tanto de um usuário cliente, quanto de um usuário comerciante/prestador de serviços. 
+- O site deve permitir o cadastro e login tanto de um usuário cliente, quanto de um usuário comerciante/prestador de serviços. 
 
-O primeiro poderá buscar pelo segundo (usando um sistema de busca) e entrar em contato com o mesmo, bem como acessar depoimentos de clientes anteriores daquele usuário. 
+- O primeiro poderá buscar pelo segundo (usando um sistema de busca) e entrar em contato com o mesmo, bem como acessar depoimentos de clientes anteriores daquele usuário. 
 
-O segundo, por sua vez, poderá preencher uma página explicando que serviço oferece, que regiões atende e quais são suas especificidades, além de responder mensagens de clientes.  
+- O segundo, por sua vez, poderá preencher uma página explicando que serviço oferece, que regiões atende e quais são suas especificidades, além de responder mensagens de clientes.  
 
-Após um serviço ser realizado, o cliente poderá avaliar aquele que lhe prestou um serviço, sendo que essa avaliação passará a constar nas avaliações daquele profissional. 
+- Após um serviço ser realizado, o cliente poderá avaliar aquele que lhe prestou um serviço, sendo que essa avaliação passará a constar nas avaliações daquele profissional. 
 
 ## Justificativa
 
