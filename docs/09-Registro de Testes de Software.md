@@ -21,23 +21,19 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 ## Avaliação
 
 ### CT-01- Teste de cadastro de Contratante
-Teste bem sucedido(201) retornando um Id
+Teste bem sucedido (201) retornando um Id.
 
 ### Teste de Autenticação JWT Contratante
-Teste bem sucedido(200) retornando um token JWT, depois da inserção do Id e do Password
+Teste bem sucedido (200) retornando um token JWT, depois da inserção do Id e do Password.
 
 ### CT-02- Teste de cadastro de Prestador
-Teste bem sucedido(201) retornando um Id
+Teste bem sucedido (201) retornando um Id.
 
 ### Teste de Autenticação JWT Prestador
-Teste bem sucedido(200) retornando um token JWT, depois da inserção do Id e do Password
+Teste bem sucedido (200) retornando um token JWT, depois da inserção do Id e do Password.
 
 ### CT-03- Gerenciamento de recuperação de senha
-Teste bem sucedido(200). Esse caso de teste será revisto e refeito quando o projeto tiver o View. 
+Teste bem sucedido (200). Esse caso de teste será revisto e refeito quando o projeto tiver o View. 
 
 
 
-
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)

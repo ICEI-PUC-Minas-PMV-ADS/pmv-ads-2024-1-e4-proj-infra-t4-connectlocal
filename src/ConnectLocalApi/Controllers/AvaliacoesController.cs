@@ -36,6 +36,9 @@ namespace ConnectLocalApi.Controllers
         [HttpGet("usuario/{idUsuario:length(24)}")]
         public async Task<List<Avaliacoes>> GetAvaliacoesByUsuario(string idUsuario) => await _connectLocalService.GetAvaliacoesByUsuario(idUsuario);
 
+        [HttpGet("servico/{idServico:length(24)}")]
+        public async Task<List<Avaliacoes>> GetAvaliacoesByServico(string idServico) => await _connectLocalService.GetAvaliacoesByServico(idServico);
+
         [HttpPost]
         public async Task<ActionResult> Post(Avaliacoes newAvaliacao)
         {

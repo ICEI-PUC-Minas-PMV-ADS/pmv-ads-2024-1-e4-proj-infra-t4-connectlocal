@@ -37,6 +37,7 @@ namespace ConnectLocalApi.Services
         public async Task<Avaliacoes?> GetAsyncAvaliacoes(string id) => await _avaliacoes.Find(x => x.Id == id).FirstOrDefaultAsync();
         public async Task<List<Avaliacoes>> GetAvaliacoesByPrestador(string id) => await _avaliacoes.Find(x => x.IdPrestador == id).ToListAsync();
         public async Task<List<Avaliacoes>> GetAvaliacoesByUsuario(string id) => await _avaliacoes.Find(x => x.IdUser == id).ToListAsync();
+        public async Task<List<Avaliacoes>> GetAvaliacoesByServico(string id) => await _avaliacoes.Find(x => x.IdServico == id).ToListAsync();
         public async Task CreateAsyncAvaliacoes(Avaliacoes newAvaliacao) => await _avaliacoes.InsertOneAsync(newAvaliacao);
         public async Task UpdateAsyncAvaliacoes(string id, Avaliacoes updatedAvaliacao) => await _avaliacoes.ReplaceOneAsync(x => x.Id == id, updatedAvaliacao);
         public async Task RemoveAsyncAvaliacoes(string id) => await _servicos.DeleteOneAsync(x => x.Id == id);

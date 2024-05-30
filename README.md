@@ -6,7 +6,7 @@
 
 `QUARTO SEMESTRE`
 
-O projeto desenvolvido tem como objetivo auxiliar pessoas a encontrar prestadores de serviços locais, próximos ao local de trabalho ou residência. Assim como indivíduos que ofereçam algum tipo de trabalho, poderem ter acesso a pessoas que desejam contratar os seus serviços. 
+O projeto tem como objetivo auxiliar pessoas a encontrar prestadores de serviços locais (próximos ao local de trabalho ou residência), assim como ajudar prestadores de serviços a encontrarem clientes próximos com maior facilidade. 
 
 ## Integrantes
 
