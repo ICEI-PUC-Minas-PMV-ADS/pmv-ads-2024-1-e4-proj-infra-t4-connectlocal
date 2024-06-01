@@ -1,6 +1,5 @@
 export const logOut = () => {
-    localStorage.removeItem('jwtToken')
-    localStorage.removeItem('user')
-    localStorage.removeItem('timestamp')
-    window.location.href = '/'
+  localStorage.removeItem('jwtToken')
+  localStorage.removeItem('user')
+  localStorage.removeItem('timestamp')
 }

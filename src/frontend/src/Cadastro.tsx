@@ -1,8 +1,9 @@
 import { api } from './services/api';
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Cadastro: React.FC = () => {
+  const navigate = useNavigate();
   const [etapa, setEtapa] = useState<number>(1);
   const [tipoConta, setTipoConta] = useState<number>(0);
 
@@ -82,6 +83,7 @@ const Cadastro: React.FC = () => {
       });
     }
   };
+
   const handleCEPChange = async (cep: string) => {
     try {
       const response = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
@@ -113,7 +115,7 @@ const Cadastro: React.FC = () => {
     tipo: string;
     doc: string;
   };
-  
+
   type EnderecoType = {
     rua: string;
     numero: string;
@@ -130,13 +132,13 @@ const Cadastro: React.FC = () => {
         return false
       }
     }
-  
+
     for (let key in endereco) {
       if (!endereco[key as keyof EnderecoType]) {
         return false
       }
     }
-  
+
     return true;
   };
 
@@ -147,7 +149,7 @@ const Cadastro: React.FC = () => {
       return;
     }
 
-    if (cadastro.senha !== cadastro.senha1){
+    if (cadastro.senha !== cadastro.senha1) {
       setEtapa(1)
       renderEtapa()
       return alert('Senhas são diferentes.')
@@ -195,10 +197,10 @@ const Cadastro: React.FC = () => {
           'Content-Type': 'application/json'
         }
       });
-      
-      if (response.status === 201){
+
+      if (response.status === 201) {
         alert('Usuário cadastrado com sucesso! Realize o Login.')
-        window.location.href = '/';
+        navigate("/home");
       }
     } catch (error) {
       alert('Email já está em uso.')
@@ -264,14 +266,14 @@ const Cadastro: React.FC = () => {
               <Link to="/">
                 <button
                   className='bg-transparent hover:bg-yellow-500 text-black font-semibold hover:text-black py-2 px-4 border border-yellow-500 hover:border-transparent rounded'>
-                    Voltar
+                  Voltar
                 </button>
               </Link>
 
-              <button 
-                className='bg-transparent hover:bg-purple-500 text-black font-semibold hover:text-black py-2 px-4 border border-purple-500 hover:border-transparent rounded' 
+              <button
+                className='bg-transparent hover:bg-purple-500 text-black font-semibold hover:text-black py-2 px-4 border border-purple-500 hover:border-transparent rounded'
                 onClick={avancarEtapa}>
-                  Próxima Etapa
+                Próxima Etapa
               </button>
             </div>
           </div>
@@ -292,15 +294,15 @@ const Cadastro: React.FC = () => {
             {renderCamposAdicionais()}
 
             <div className='flex justify-between'>
-              <button 
-                className='bg-transparent hover:bg-yellow-500 text-black font-semibold hover:text-black py-2 px-4 border border-yellow-500 hover:border-transparent rounded' 
+              <button
+                className='bg-transparent hover:bg-yellow-500 text-black font-semibold hover:text-black py-2 px-4 border border-yellow-500 hover:border-transparent rounded'
                 onClick={retrocederEtapa}>
-                  Etapa Anterior
+                Etapa Anterior
               </button>
-              <button 
-                className='bg-transparent hover:bg-purple-500 text-black font-semibold hover:text-black py-2 px-4 border border-purple-500 hover:border-transparent rounded' 
+              <button
+                className='bg-transparent hover:bg-purple-500 text-black font-semibold hover:text-black py-2 px-4 border border-purple-500 hover:border-transparent rounded'
                 onClick={avancarEtapa}>
-                  Próxima Etapa
+                Próxima Etapa
               </button>
             </div>
           </div>
@@ -377,16 +379,16 @@ const Cadastro: React.FC = () => {
             />
 
             <div className='flex justify-between'>
-              <button 
-                className='bg-transparent hover:bg-yellow-500 text-black font-semibold hover:text-black py-2 px-4 border border-yellow-500 hover:border-transparent rounded' 
+              <button
+                className='bg-transparent hover:bg-yellow-500 text-black font-semibold hover:text-black py-2 px-4 border border-yellow-500 hover:border-transparent rounded'
                 onClick={retrocederEtapa}>
-                  Etapa Anterior
+                Etapa Anterior
               </button>
-              <a 
-                className='hover:cursor-pointer bg-transparent hover:bg-green-500 text-black font-semibold hover:text-black py-2 px-4 border border-green-500 hover:border-transparent rounded' 
+              <a
+                className='hover:cursor-pointer bg-transparent hover:bg-green-500 text-black font-semibold hover:text-black py-2 px-4 border border-green-500 hover:border-transparent rounded'
                 onClick={handleSubmit}
-                >
-                  Enviar Cadastro
+              >
+                Enviar Cadastro
               </a>
             </div>
           </div>
@@ -399,7 +401,7 @@ const Cadastro: React.FC = () => {
   return (
     <div className="w-full min-h-screen bg-gray-100 flex justify-center px-4">
       <main className="my-10 w-full md:max-w-4xl">
-        <img src='src/images/ConnectLogo.png'></img>
+        <img src='https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/blob/main/src/frontend/src/images/ConnectLogo.png?raw=true'></img>
         <h1 className="text-4xl font-medium text-purple-500 mt-6">Cadastro</h1>
         <form className="flex flex-col my-6">
           {renderEtapa()}
