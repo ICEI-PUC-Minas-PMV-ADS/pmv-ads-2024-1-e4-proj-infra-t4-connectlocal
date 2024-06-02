@@ -7,6 +7,8 @@ O Plano de Teste do Software tem como finalidade atingir os seguintes objetivos:
 3.	Assegurar que os usuários consigam utilizar a aplicação com facilidade e sem dificuldades;
 4.	Assegurar a acessibilidade, independentemente de possíveis limitações do usuário.
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/114544326/9ca31af8-0ac4-4eb3-8136-6748beee862b)
+
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/114544326/bbceb68b-0f75-42aa-8fd3-485315449566)
 
 
