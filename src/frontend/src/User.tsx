@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
 import { api } from './services/api';
+import { useNavigate } from 'react-router-dom';
 import { IoIosLogOut } from "react-icons/io";
-import { TiStarFullOutline } from "react-icons/ti";
-import { FaRegSadCry } from "react-icons/fa";
-import { TbMoodSadSquint, TbMoodSad, TbMoodEmpty, TbMoodSmile, TbMoodHappy, TbMapShare } from "react-icons/tb";
 import { logOut } from './Functions';
 
-interface userProps {
+interface UserProps {
   id: string;
   name: string;
   email: string;
@@ -23,49 +20,9 @@ interface userProps {
   estado: string;
 }
 
-interface ServiceProps {
-  id: string;
-  idPrestador: string;
-  tipoServico: string;
-  descricao: string;
-}
-
-interface AvaliacaoProps {
-  id: string;
-  idUser: string;
-  nomeUser: string;
-  idPrestador: string;
-  nomePrestador: string;
-  idServico: string;
-  nota: number;
-  comentario: string;
-}
-
-interface PrestadorProps {
-  id: string;
-  name: string;
-  email: string;
-  contato: string;
-  cpf: string;
-  cnpj: string;
-  cep: string;
-  rua: string;
-  numero: string;
-  complemento: string;
-  bairro: string;
-  cidade: string;
-  estado: string;
-}
-
-const Servico: React.FC = () => {
-  const { id } = useParams();
+const User: React.FC = () => {
   const navigate = useNavigate();
-  const [service, setService] = useState<ServiceProps | null>(null);
-  const [user, setUser] = useState<userProps>({} as userProps);
-  const [prestadorDetails, setPrestadorDetails] = useState<PrestadorProps | null>(null);
-  const [nota, setNota] = useState<number>(0);
-  const [comentario, setComentario] = useState<string>('');
-  const [avaliacoes, setAvaliacoes] = useState<AvaliacaoProps[]>([]);
+  const [user, setUser] = useState<UserProps | null>(null);
 
   useEffect(() => {
     const fetchUser = async () => {
@@ -76,132 +33,73 @@ const Servico: React.FC = () => {
       }
     };
 
-    const fetchService = async () => {
-      try {
-        const jwtToken = localStorage.getItem('jwtToken');
-        const response = await api.get(`/servicos/${id}`, {
-          headers: {
-            'Authorization': `Bearer ${jwtToken}`
-          }
-        });
-        setService(response.data);
-
-        const prestadorResponse = await api.get(`/usuarios/${response.data.idPrestador}`, {
-          headers: {
-            'Authorization': `Bearer ${jwtToken}`
-          }
-        });
-        setPrestadorDetails(prestadorResponse.data);
-      } catch (error) {
-        console.error('Erro ao carregar o serviço:', error);
-      }
-    };
-
-    const fetchAvaliacoes = async () => {
-      try {
-        const jwtToken = localStorage.getItem('jwtToken');
-        const response = await api.get(`/avaliacoes/servico/${id}`, {
-          headers: {
-            'Authorization': `Bearer ${jwtToken}`
-          }
-        });
-        setAvaliacoes(response.data);
-      } catch (error) {
-        console.error('Erro ao carregar as avaliações:', error);
-      }
-    };
-
     fetchUser();
-    fetchService();
-    fetchAvaliacoes();
-  }, [id]);
+  }, []);
 
-  const handleNavigateToGoogleMaps = () => {
-    if (prestadorDetails) {
-      const { rua, numero, bairro, cidade, estado, cep } = prestadorDetails;
-      const address = `${rua}, ${numero}, ${bairro}, ${cidade}, ${estado}, ${cep}`;
-      const url = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
-      window.open(url, '_blank');
-    }
-  };
-
-  const handleAvaliacaoSubmit = async () => {
-    if (service && user) {
-      const data = {
-        idUser: user.id,
-        nomeUser: user.name,
-        idPrestador: service.idPrestador,
-        nomePrestador: prestadorDetails?.name,
-        idServico: service.id,
-        nota: nota,
-        comentario: comentario,
-      };
-
-      try {
-        const jwtToken = localStorage.getItem('jwtToken');
-        const response = await api.post('/avaliacoes', data, {
-          headers: {
-            'Authorization': `Bearer ${jwtToken}`
-          }
-        });
-
-        if (response.status === 201) {
-          alert('Avaliação enviada com sucesso!');
-          setNota(0);
-          setComentario('');
-          fetchAvaliacoes();  // Recarregar avaliações após enviar uma nova
-        }
-      } catch (error) {
-        console.error('Erro ao enviar avaliação:', error);
-      }
-    }
-  };
+  if (!user) {
+    return <div>Carregando...</div>;
+  }
 
   const out = () => {
     logOut();
     navigate("/");
   };
 
-  const fetchAvaliacoes = async () => {
+  const handleCEPInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const cep = e.target.value.replace(/\D/g, '');
+    if (cep.length === 8) {
+      handleCEPChange(cep);
+    } else {
+      setUser({
+        ...user,
+        cep: e.target.value
+      });
+    }
+  };
+
+  const handleCEPChange = async (cep: string) => {
     try {
-      const jwtToken = localStorage.getItem('jwtToken');
-      const response = await api.get(`/avaliacoes/servico/${id}`, {
+      const response = await fetch(`https://viacep.com.br/ws/${cep}/json/`);
+      const data = await response.json();
+      if (data.erro) {
+        console.error('CEP não encontrado');
+        return;
+      }
+      setUser({ ...user, rua: data.logradouro });
+      setUser({ ...user, bairro: data.bairro });
+      setUser({ ...user, cidade: data.localidade });
+      setUser({ ...user, estado: data.uf });
+      setUser({ ...user, rua: data.logradouro });
+    } catch (error) {
+      console.error('Erro ao buscar CEP:', error);
+    }
+  };
+
+  const handleSubmit = async () => {
+    const data = JSON.parse(JSON.stringify(user));
+    delete data['id']
+    const jwtToken = localStorage.getItem('jwtToken');
+    const url = `/usuarios/${user.id}`
+    console.log(url)
+    const response = await api.put(url, data, {
+      headers: {
+        'Authorization': `Bearer ${jwtToken}`,
+      },
+    });
+    if (response.status == 204) {
+      const response = await api.get(url, {
         headers: {
           'Authorization': `Bearer ${jwtToken}`
         }
       });
-      setAvaliacoes(response.data);
-    } catch (error) {
-      console.error('Erro ao carregar as avaliações:', error);
+      if (response.status === 200) {
+        const user = response.data;
+        localStorage.setItem('user', JSON.stringify(user));
+        alert('Dados atualizados com sucesso!')
+        window.location.reload()
+      }
     }
-  };
-
-  if (!service) {
-    return <div>Carregando...</div>;
   }
-
-  if (!prestadorDetails) {
-    return <div>Carregando...</div>;
-  }
-
-  const renderNotaIcon = (selectedNota: number) => {
-    const icons = [
-      { nota: 1, icon: <TbMoodSadSquint />, color: 'text-red-500', text: 'Muito Ruim' },
-      { nota: 2, icon: <TbMoodSad />, color: 'text-orange-500', text: 'Ruim' },
-      { nota: 3, icon: <TbMoodEmpty />, color: 'text-yellow-500', text: 'Regular' },
-      { nota: 4, icon: <TbMoodSmile />, color: 'text-green-300', text: 'Bom' },
-      { nota: 5, icon: <TbMoodHappy />, color: 'text-green-500', text: 'Muito Bom' },
-    ];
-
-    return icons.map((iconObj) => (
-      <div key={iconObj.nota} className="flex flex-col items-center">
-        <span onClick={() => setNota(iconObj.nota)} className={`cursor-pointer ${selectedNota === iconObj.nota ? iconObj.color : 'text-black'}`}>
-          {iconObj.icon}
-        </span>
-        <span className="text-sm mt-1">{iconObj.text}</span>
-      </div>
-    ));
-  };
 
   return (
     <div className='w-full min-h-screen bg-gray-100'>
@@ -228,102 +126,155 @@ const Servico: React.FC = () => {
       </header>
 
       <div className="w-full min-h-screen bg-gray-100 flex justify-center px-4">
-        <main className="my-10 md:max-w-2xl w-full">
+        <main className=" md:max-w-2xl w-full">
           <section className="bg-white rounded-lg shadow-lg p-6 mt-6 mb-10">
-            <h2 className="text-2xl font-bold text-gray-900 mb-4">Detalhes do Serviço</h2>
-            <p className="text-gray-900 font-semibold">
-              <span className="font-medium">Tipo de Serviço: </span>{service.tipoServico}
-            </p>
-            <p className="text-gray-700">
-              <span className="font-medium">Descrição: </span>{service.descricao}
-            </p>
-
-            <h3 className="text-xl font-bold text-gray-900 mt-6 mb-2">Detalhes do Prestador</h3>
-            <p className="text-gray-900 font-semibold">
-              <span className="font-medium">Nome: </span>{prestadorDetails.name}
-            </p>
-            <p className="text-gray-700">
-              <span className="font-medium">Email: </span>{prestadorDetails.email}
-            </p>
-            <p className="text-gray-700">
-              <span className="font-medium">Contato: </span>{prestadorDetails.contato}
-            </p>
-            <p className="text-gray-700">
-              <span className="font-medium">CNPJ: </span>{prestadorDetails.cnpj}
-            </p>
-            <p className="text-gray-700">
-              <span className="font-medium">Endereço: </span>{`${prestadorDetails.rua}, ${prestadorDetails.numero}, ${prestadorDetails.complemento}, ${prestadorDetails.bairro}, ${prestadorDetails.cidade}, ${prestadorDetails.estado}, ${prestadorDetails.cep}`}
-            </p>
-
-            <div className="flex justify-between mt-6">
-              <button
-                className="mt-4 px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600"
-                onClick={() => navigate('/index')}
-              >
-                Voltar
-              </button>
-
-              <button
-                className="mt-4 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 flex items-center gap-1"
-                onClick={handleNavigateToGoogleMaps}
-              >
-                <TbMapShare />
-                Google Maps
-              </button>
-            </div>
-          </section>
-
-          {user.cpf && (
-            <section className="bg-white rounded-lg shadow-lg p-6 mt-6">
-              <h2 className="text-xl font-bold text-gray-900 mb-4">Avaliar Serviço</h2>
-              <form onSubmit={(e) => {
+            <h2 className="text-xl font-bold text-gray-900 mb-4">Informações cadastrais</h2>
+            <form
+              className="flex flex-col my-6"
+              onSubmit={(e) => {
                 e.preventDefault();
-                handleAvaliacaoSubmit();
-              }}>
-                <label className="block mb-2 text-sm font-medium text-gray-900">Nota:</label>
-                <div className="flex justify-between mb-4">
-                  {renderNotaIcon(nota)}
-                </div>
+                handleSubmit();
+              }}
+            >
+              <label className="font-medium text-black">Nome:</label>
+              <input
+                className="w-full mb-5 p-2 rounded border"
+                type="text"
+                placeholder="Digite seu nome completo..."
+                value={user.name}
+                onChange={(e) => setUser({ ...user, name: e.target.value })}
+                maxLength={100}
+              />
 
-                <label className="block mb-2 text-sm font-medium text-gray-900">Comentário:</label>
-                <textarea
-                  value={comentario}
-                  onChange={(e) => setComentario(e.target.value)}
-                  className="w-full mb-4 p-2 border border-gray-300 rounded"
-                  rows={4}
-                  required
-                />
+              <label className="font-medium text-black">Email:</label>
+              <input
+                className="w-full mb-5 p-2 rounded border"
+                type="email"
+                placeholder="exemplo@exemplo.com"
+                value={user.email}
+                onChange={(e) => setUser({ ...user, email: e.target.value })}
+                maxLength={50}
+              />
 
+              <label className="font-medium text-black">Número:</label>
+              <input
+                className="w-full mb-5 p-2 rounded border"
+                type="text"
+                placeholder="(xx) xxxxx-xxxx"
+                value={user.contato}
+                onChange={(e) => setUser({ ...user, contato: e.target.value })}
+                maxLength={11}
+              />
+
+              {user.cpf && (
+                <>
+                  <label className="font-medium text-black">CPF:</label>
+                  <input
+                    className="w-full mb-5 p-2 rounded border"
+                    type="text"
+                    placeholder="Digite seu CPF..."
+                    value={user.cpf}
+                    onChange={(e) => setUser({ ...user, cpf: e.target.value })}
+                    maxLength={11}
+                  />
+                </>
+              )}
+
+              {user.cnpj && (
+                <>
+                  <label className="font-medium text-black">CNPJ:</label>
+                  <input
+                    className="w-full mb-5 p-2 rounded border"
+                    type="text"
+                    placeholder="Digite seu CPF..."
+                    value={user.cnpj}
+                    onChange={(e) => setUser({ ...user, cnpj: e.target.value })}
+                    maxLength={14}
+                  />
+                </>
+              )}
+
+              <label className="font-medium text-black">CEP:</label>
+              <input
+                className="w-full mb-5 p-2 rounded border"
+                type="text"
+                placeholder="Digite seu CEP..."
+                value={user.cep}
+                onChange={handleCEPInput}
+                maxLength={8}
+              />
+
+              <label className="font-medium text-black">Rua:</label>
+              <input
+                className="w-full mb-5 p-2 rounded border"
+                type="text"
+                placeholder="Rua"
+                value={user.rua}
+                onChange={(e) => setUser({ ...user, rua: e.target.value })}
+                maxLength={100}
+              />
+
+              <label className="font-medium text-black">Número:</label>
+              <input
+                className="w-full mb-5 p-2 rounded border"
+                type="number"
+                placeholder="Número"
+                value={user.numero}
+                onChange={(e) => setUser({ ...user, numero: e.target.value })}
+              />
+
+              <label className="font-medium text-black">Complemento:</label>
+              <input
+                className="w-full mb-5 p-2 rounded border"
+                type="text"
+                placeholder="Complemento"
+                value={user.complemento}
+                onChange={(e) => setUser({ ...user, complemento: e.target.value })}
+                maxLength={100}
+              />
+
+              <label className="font-medium text-black">Bairro:</label>
+              <input
+                className="w-full mb-5 p-2 rounded border"
+                type="text"
+                placeholder="Bairro"
+                value={user.bairro}
+                onChange={(e) => setUser({ ...user, bairro: e.target.value })}
+              />
+
+              <label className="font-medium text-black">Cidade:</label>
+              <input
+                className="w-full mb-5 p-2 rounded border"
+                type="text"
+                placeholder="Cidade"
+                value={user.cidade}
+                onChange={(e) => setUser({ ...user, cidade: e.target.value })}
+                maxLength={100}
+              />
+
+              <label className="font-medium text-black">Estado:</label>
+              <input
+                className="w-full mb-5 p-2 rounded border"
+                type="text"
+                placeholder="Estado"
+                value={user.estado}
+                onChange={(e) => setUser({ ...user, estado: e.target.value })}
+                maxLength={100}
+              />
+
+              <div className="flex justify-between mt-6">
                 <button
-                  type="submit"
-                  className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
+                  className="mt-4 px-4 py-2 bg-yellow-500 text-white rounded hover:bg-yellow-600"
+                  onClick={() => navigate('/index')}
                 >
-                  Enviar Avaliação
+                  Voltar
                 </button>
-              </form>
-            </section>
-          )}
 
-          <section className="bg-white rounded-lg shadow-lg p-6 mt-6">
-            <h2 className="text-xl font-bold text-gray-900 mb-4">Avaliações</h2>
-            {avaliacoes.length === 0 ? (
-              <div className="flex flex-col items-center">
-                <FaRegSadCry className="text-4xl text-gray-500 mb-2" />
-                <p className="text-gray-700">Serviço não avaliado, deixe uma avaliação!</p>
+                <button type='submit' className="mt-4 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">
+                  Salvar
+                </button>
               </div>
-            ) : (
-              avaliacoes.map((avaliacao) => (
-                <div key={avaliacao.id} className="bg-gray-100 rounded-lg shadow p-4 mb-4">
-                  <div className="flex items-center mb-2">
-                    {[...Array(avaliacao.nota)].map((_, index) => (
-                      <TiStarFullOutline key={index} className="text-yellow-500 text-xl" />
-                    ))}
-                  </div>
-                  <p className="text-gray-900 font-semibold">{avaliacao.nomeUser}</p>
-                  <p className="text-gray-700">{avaliacao.comentario}</p>
-                </div>
-              ))
-            )}
+            </form>
           </section>
         </main>
       </div>
@@ -331,4 +282,4 @@ const Servico: React.FC = () => {
   );
 };
 
-export default Servico;
+export default User;
