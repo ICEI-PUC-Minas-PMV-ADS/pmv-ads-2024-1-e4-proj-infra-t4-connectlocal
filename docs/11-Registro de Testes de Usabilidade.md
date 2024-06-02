@@ -23,8 +23,7 @@ Avaliação e Feedback Avaliar um serviço após sua conclusão. Deixar um comen
 
 **Data:** 10 de maio de 2024
 
-**Local:** Laboratório de Usabilidade da Empresa X
-
+**Local:** Realizado remotamente com os participantes
 **Participantes:**
 1. Nome: Ana Silva
    - Perfil: Usuária frequente de aplicativos de compras online, 28 anos, profissional de marketing.
