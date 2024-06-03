@@ -1,4 +1,4 @@
-# Registro de Testes de Software
+# Registro de Testes de Software WEB
 
 ### CT-01- Cadastro de Contratante
 ![Criação_Contratante_Amanda](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/98750413/24cc494c-0784-4bf3-81fc-587a05cd61dc)
@@ -35,5 +35,15 @@ Teste bem sucedido (200) retornando um token JWT, depois da inserção do Id e d
 ### CT-03- Gerenciamento de recuperação de senha
 Teste bem sucedido (200). Esse caso de teste será revisto e refeito quando o projeto tiver o View. 
 
+# Registro de Testes de Software Mobile
 
+### CT-01- Cadastro de Contratante
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/98750413/6c8d86d8-1995-4b8e-92e5-2f352a260f8b
+### CT-01- Login
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/98750413/34a8f501-1c2e-4179-b9a1-eddb6dde9e28
 
+## Avaliação
+### CT-01- Teste de cadastro de Contratante
+Teste não teve sucesso por não ter sido possível escolher o tipo de usuário, nem concluir o cadastro.
+### CT-01- Teste de Login
+Teste de Login bem sucedido. Usuário havia sido cadastrado por meio do navegador da web.
