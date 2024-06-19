@@ -6,7 +6,7 @@
 
 `QUARTO SEMESTRE`
 
-O projeto tem como objetivo auxiliar pessoas a encontrar prestadores de serviços locais (próximos ao local de trabalho ou residência), assim como ajudar prestadores de serviços a encontrarem clientes próximos com maior facilidade. 
+O projeto tem como objetivo o desenvolvimento de um aplicativo que auxilie seus usuários a encontrarem prestadores de serviços locais (próximos ao local de trabalho ou residência), bem como ajudar prestadores de serviços a encontrarem clientes próximos com maior facilidade. 
 
 ## Integrantes
 
