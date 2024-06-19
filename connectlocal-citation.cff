@@ -1,0 +1,26 @@
+message: Please cite this software using these metadata.
+title: ConnectLocal
+authors:
+  - family-names: Victor de Oliveira Flavio
+    given-names:  Bruno
+  - family-names: Souza de Oliveira
+    given-names: Daniella 
+  - family-names: Mendes Rufino Silva
+    given-names: Daniel 
+  - family-names: Felix dos Santos
+    given-names: Jeferson 
+  - family-names: Delay
+    given-names: Mateus 
+  - family-names: Henrique da Silva Santos
+    given-names: Pedro 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Alves de Oliveira
+    given-names: Pedro 
+keywords:
+  - Oferta de trabalhos locais
+  - Mão de obra especializada
+  - Avaliações de serviços oferecidos
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal
+version: 1.0.0
+date-released: 2024-06-23
