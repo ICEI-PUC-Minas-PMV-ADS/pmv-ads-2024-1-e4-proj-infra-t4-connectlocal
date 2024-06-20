@@ -38,12 +38,26 @@ Teste bem sucedido (200). Esse caso de teste será revisto e refeito quando o pr
 # Registro de Testes de Software Mobile
 
 ### CT-01- Cadastro de Contratante
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/98750413/6c8d86d8-1995-4b8e-92e5-2f352a260f8b
-### CT-01- Login
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/98750413/34a8f501-1c2e-4179-b9a1-eddb6dde9e28
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/98750413/6149b730-d112-457b-89dc-5cb6bd3520c3
+
+### CT-02 Cadastro de Prestador
+
+
+### CT-04 Gerenciamento da qualidade dos serviços
+
+### CT-05 Realização de buscas de serviços pelos usuários- Contratantes
+
+### CT-07 Gerenciamento de serviços a serem prestados
+
+
+
+### CT-01- Login/Logout Contratante
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/98750413/af43e1e1-7993-4882-8d3d-ebbf45925954
 
 ## Avaliação
 ### CT-01- Teste de cadastro de Contratante
-Teste não teve sucesso por não ter sido possível escolher o tipo de usuário, nem concluir o cadastro.
-### CT-01- Teste de Login
-Teste de Login bem sucedido. Usuário havia sido cadastrado por meio do navegador da web.
+Teste bem sucedido.
+### CT-01- Teste de Login/Logout Contratante
+Teste de Login e Logout bem sucedido. Contratante cadastrado no teste anterior. 
+
+### CT-02 Cadastro de Prestador de serviço
