@@ -23,7 +23,7 @@ O projeto tem como objetivo o desenvolvimento de um aplicativo que auxilie seus 
 
 ## Instruções de utilização / Manual do Usuário
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+Assim que a primeira versão do sistema estiver disponível, ela será complementada com um manual contendo as instruções de utilização. No manual constará como instalar eventuais dependências e como executar a aplicação.
 
 **APENAS UMA IDEIA INICIAL ABAIXO (PEDRO)**
 
