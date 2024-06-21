@@ -25,9 +25,7 @@ O projeto tem como objetivo o desenvolvimento de um aplicativo que auxilie seus 
 
 Assim que a primeira versão do sistema estiver disponível, ela será complementada com um manual contendo as instruções de utilização. No manual constará como instalar eventuais dependências e como executar a aplicação.
 
-**APENAS UMA IDEIA INICIAL ABAIXO (PEDRO)**
-
-[Manual do Usuário - Sistema de Contratação de Serviços Locais - ConnectLocal.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/files/14471018/Manual.do.Usuario.-.Sistema.de.Contratacao.de.Servicos.Locai.pdf)
+[Manual do Usuário - Sistema de Contratação de Serviços Locais - ConnectLocal.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/blob/main/docs/ManualConnectlocal.pdf)
 
 # Documentação
 
