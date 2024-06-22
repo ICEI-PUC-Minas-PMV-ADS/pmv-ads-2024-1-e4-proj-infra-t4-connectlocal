@@ -1,6 +1,9 @@
-export default {
+// Purpose: PostCSS configuration file. 
+
+module.exports ={
   plugins: {
-    tailwindcss: {},
+    tailwindcss: {include: './src/frontend/tailwind.config.js'},
     autoprefixer: {},
+    
   },
 }

@@ -1,3 +1,5 @@
+
+import './App.css';
 import React, { useEffect, useState } from 'react';
 import { api } from './services/api';
 import { logOut } from './Functions';
