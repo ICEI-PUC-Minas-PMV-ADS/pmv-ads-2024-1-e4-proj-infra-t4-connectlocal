@@ -1,8 +1,6 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
  Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
@@ -12,7 +10,6 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 <img width="4640" alt="FLUXOGRAMA" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/112659128/1b359faa-90d3-49b6-9596-1d3280017d84">
 
 Caso necessário para uma melhor visualização, fazer o download do PDF: [FLUXOGRAMA.pdf](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/files/15214942/FLUXOGRAMA.pdf)
-
 
 ## Wireframes
 
@@ -25,5 +22,15 @@ Caso necessário para uma melhor visualização, fazer o download do PDF: [FLUXO
 ### Página de Serviços
 ![SERVICES_PAGE](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/112659128/24be8a23-f329-4082-8ed8-8095286b2207)
 
- 
+### Página de Login (mobile)
+ <img width="4640" alt="HOME" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/blob/main/src/frontend/src/images/Connecthomepic.png">
 
+### Página do Index (mobile)
+ <img width="340" alt="HOME" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/blob/main/src/frontend/src/images/Connectindexpic.png">
+
+### Página de Cadastro (mobile)
+ <img width="340" alt="HOME" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/blob/main/src/frontend/src/images/ConnectCadastropic.png">
+
+ <img width="340" alt="HOME" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/blob/main/src/frontend/src/images/ConnectCadastropic2.png">
+
+ <img width="340" alt="HOME" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/blob/main/src/frontend/src/images/ConnectCadastropic3.png">
