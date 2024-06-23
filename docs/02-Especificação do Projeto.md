@@ -1,8 +1,6 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Nessa etapa, serão detalhadas as especificações do projeto para o desenvolvimento de Marketplace de Serviços Locais. Para isso, utilizaremos personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições do projeto. Essas informações fornecerão uma visão abrangente dos objetivos, funcionalidades e características essenciais da plataforma.
+Constam aqui as especificações do projeto para o desenvolvimento de Marketplace de Serviços Locais. Para isso, utilizaremos personas, histórias de usuários, requisitos funcionais e não funcionais, além das restrições do projeto. Essas informações fornecerão uma visão abrangente dos objetivos, funcionalidades e características essenciais da plataforma.
 
 ## Personas
   
