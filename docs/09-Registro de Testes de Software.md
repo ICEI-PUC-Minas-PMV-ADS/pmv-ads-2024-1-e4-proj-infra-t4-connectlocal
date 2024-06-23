@@ -1,3 +1,4 @@
+
 # Registro de Testes de Software WEB
 
 ### CT-01- Cadastro de Contratante
@@ -39,20 +40,30 @@ Teste bem sucedido (200). Esse caso de teste será revisto e refeito quando o pr
 
 ### CT-01- Cadastro de Contratante
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/98750413/6149b730-d112-457b-89dc-5cb6bd3520c3
-
-### CT-02 Cadastro de Prestador
-
-
-### CT-04 Gerenciamento da qualidade dos serviços
-
-### CT-05 Realização de buscas de serviços pelos usuários- Contratantes
-
-### CT-07 Gerenciamento de serviços a serem prestados
-
-
-
 ### CT-01- Login/Logout Contratante
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/98750413/af43e1e1-7993-4882-8d3d-ebbf45925954
+
+### CT-02 Cadastro de Prestador
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/98750413/93f6c3c2-8b1a-4849-a6c4-635e62c019e8
+
+### CT-04 Gerenciamento da qualidade dos serviços
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/98750413/e3d8b3ce-4185-4250-b3f5-fbef087d0acc
+
+### CT-05 Realização de buscas de serviços pelos usuários- Contratantes
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/98750413/d078260a-b9f4-46f4-b5cf-fef94912bbfd
+
+### CT-07 Gerenciamento de serviços a serem prestados
+#### Vídeo 1. Prestador cadastrando serviço
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/98750413/5ed4b55e-c97f-460f-aac0-64caa7ba4fe4
+#### Vídeo 2. Prestador exclui serviço.
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal/assets/98750413/2d9be94e-c340-4471-8c6f-da4e88af96c6
+
+
+
+
+
+
+
 
 ## Avaliação
 ### CT-01- Teste de cadastro de Contratante
@@ -61,3 +72,17 @@ Teste bem sucedido.
 Teste de Login e Logout bem sucedido. Contratante cadastrado no teste anterior. 
 
 ### CT-02 Cadastro de Prestador de serviço
+Teste bem sucedido de cadastro de Prestador
+
+### CT-04 Gerenciamento da qualidade dos serviços
+Teste bem sucedido. Contratante avaliou com sucesso um Prestador.
+
+### CT-05 Realização de buscas de serviços pelos usuários- Contratante
+Teste bem sucedido. Contratante buscou e visualizou informações de todos os serviços disponíveis.
+
+### CT-07 Gerenciamento de serviços a serem prestados
+#### Vídeo 1. Prestador cadastrando serviço
+Teste bem sucedido. Prestador cadastra serviço com sucesso.
+#### Vídeo 2. Prestador exclui serviço.
+Teste bem sucedido. Prestador exclui serviço cadastrado com sucesso.
+
