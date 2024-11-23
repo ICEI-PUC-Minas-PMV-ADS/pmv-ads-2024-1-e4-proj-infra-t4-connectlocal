@@ -1,26 +1,30 @@
-message: Please cite this software using these metadata.
+cff-version: 1.0.1
+message: Sistema para localizar prestadores de serviços locais
 title: ConnectLocal
 authors:
   - family-names: Victor de Oliveira Flavio
-    given-names:  Bruno
+    given-names: Bruno
   - family-names: Souza de Oliveira
     given-names: Daniella 
   - family-names: Mendes Rufino Silva
-    given-names: Daniel 
+    given-names: Daniel
   - family-names: Felix dos Santos
-    given-names: Jeferson 
+    given-names: Jeferson
   - family-names: Delay
-    given-names: Mateus 
+    given-names: Matheus
   - family-names: Henrique da Silva Santos
-    given-names: Pedro 
+    given-names: Pedro
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: Alves de Oliveira
-    given-names: Pedro 
+    given-names: Pedro
 keywords:
-  - Oferta de trabalhos locais
-  - Mão de obra especializada
-  - Avaliações de serviços oferecidos
+  - localização de prestadores de serviços
+  - encontrar profissionais perto de você
+  - serviços locais
+  - plataforma de prestadores de serviços
+  - profissionais próximos
 repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal
+license: CC-BY-4.0
 version: 1.0.0
 date-released: 2024-06-23
