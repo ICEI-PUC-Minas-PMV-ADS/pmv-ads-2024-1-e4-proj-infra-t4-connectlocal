@@ -1,30 +1,22 @@
 cff-version: 1.0.1
-message: Sistema para localizar prestadores de serviços locais
-title: ConnectLocal
+message: Sistema para planejamento de viagens
+title: Mochileiros
 authors:
-  - family-names: Victor de Oliveira Flavio
-    given-names: Bruno
-  - family-names: Souza de Oliveira
-    given-names: Daniella 
-  - family-names: Mendes Rufino Silva
-    given-names: Daniel
-  - family-names: Felix dos Santos
-    given-names: Jeferson
-  - family-names: Delay
-    given-names: Matheus
-  - family-names: Henrique da Silva Santos
-    given-names: Pedro
-  - name-suffix: Professor
+  - family-names: Menezes Matias da Silva
+    given-names: João Pedro
+  - family-names: Fonseca Amorim
+    given-names: Igor 
+  - family-names: Almeida Dias 
+    given-names: Luiz Fernando 
+  - name-suffix: Professora
     affiliation: PUC Minas
-    family-names: Alves de Oliveira
-    given-names: Pedro
+    family-names: De Nardin
+    given-names: Luciana
 keywords:
-  - localização de prestadores de serviços
-  - encontrar profissionais perto de você
-  - serviços locais
-  - plataforma de prestadores de serviços
-  - profissionais próximos
-repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t4-connectlocal
+  - viagens
+  - mochileiros
+  - gastos
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t5-mochileiros
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2024-06-23
+date-released: 2024-06-26
